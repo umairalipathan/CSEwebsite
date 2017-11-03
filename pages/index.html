@@ -1,0 +1,369 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>QUEST-Nawabshah</title>
+    <link rel="icon" href="images/favicon.png" type="image/png">
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <link rel="stylesheet" href="layout/styles/layout.css" type="text/css" />
+    <style>
+        /* Browser Resets sssss */
+        .flex-container a:active,
+        .flexslider a:active,
+        .flex-container a:focus,
+        .flexslider a:focus  { outline: none; }
+        .slides,
+        .flex-control-nav,
+        .flex-direction-nav {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        .flexslider a img { outline: none; border: none; }
+        .flexslider {
+            padding: 0;
+            height:400px;
+            width: 800px;
+        }
+        /* Hide the slides before the JS is loaded. Avoids image jumping */
+        .flexslider .slides > li {
+            display: none;
+            -webkit-backface-visibility: hidden;
+        }
+        .flexslider .slides img {
+            height:400px;
+            width: 800px;
+            display: block;
+            -webkit-border-radius: 2px;
+            -moz-border-radius: 2px;
+            border-radius: 2px;
+        }
+        /* Clearfix for the .slides element */
+        .slides:after {
+            content: ".";
+            display: block;
+            clear: both;
+            visibility: hidden;
+            line-height: 0;
+            height: 0;
+        }
+        html[xmlns] .slides { display: block; }
+        * html .slides { height: 1%; }
+        /* Theme Styles */
+        .flexslider {
+            position: relative;
+            zoom: 1;
+            padding: 10px;
+            background: #ffffff;
+            -webkit-border-radius: 3px;
+            -moz-border-radius: 3px;
+            border-radius: 3px;
+            -webkit-box-shadow: 0px 1px 1px rgba(0,0,0, .2);
+            -moz-box-shadow: 0px 1px 1px rgba(0,0,0, .2);
+            box-shadow: 0px 1px 1px rgba(0,0,0, .2);
+        }
+        /* Edit it if you want */
+        .flex-container {
+            margin-left:auto;
+            margin-right:auto;
+            margin-bottom:70px;
+            min-width: 150px;
+            max-width: 473px;
+        }
+        .flexslider .slides { zoom: 1; }
+        /* Direction Nav */
+        .flex-direction-nav a {
+            display: block;
+            position: absolute;
+            margin: -17px 0 0 0;
+            width: 35px;
+            height: 35px;
+            top: 50%;
+            cursor: pointer;
+            text-indent: -9999px;
+            z-index: 9999;
+            background-color: #2B4D71;
+            background-image: -webkit-gradient(linear, left top, left bottom, from(#2B4D71), to(#072C53));
+            background-image: -webkit-linear-gradient(top, #2B4D71, #072C53);
+            background-image: -moz-linear-gradient(top, #2B4D71, #072C53);
+            background-image: -o-linear-gradient(top, #2B4D71, #072C53);
+            background-image: linear-gradient(to bottom, #2B4D71, #072C53);
+        }
+        .flex-direction-nav a:before {
+            display: block;
+            position: absolute;
+            content: '';
+            width: 9px;
+            height: 13px;
+            top: 11px;
+            left: 11px;
+            background: url(images/arrows.png) no-repeat;
+        }
+        .flex-direction-nav a:after {
+            display: block;
+            position: absolute;
+            content: '';
+            width: 0;
+            height: 0;
+            top: 35px;
+        }
+        .flex-direction-nav .flex-next {
+            right: -5px;
+            -webkit-border-radius: 3px 0 0 3px;
+            -moz-border-radius: 3px 0 0 3px;
+            border-radius: 3px 0 0 3px;
+        }
+        .flex-direction-nav .flex-prev {
+            left: -5px;
+            -webkit-border-radius: 0 3px 3px 0;
+            -moz-border-radius: 0 3px 3px 0;
+            border-radius: 0 3px 3px 0;
+        }
+        .flex-direction-nav .flex-next:before { background-position: -9px 0; left: 15px; }
+        .flex-direction-nav .flex-prev:before { background-position: 0 0; }
+        .flex-direction-nav .flex-next:after {
+            right: 0;
+            border-bottom: 5px solid transparent;
+            border-left: 5px solid #31611e;
+        }
+        .flex-direction-nav .flex-prev:after {
+            left: 0;
+            border-bottom: 5px solid transparent;
+            border-right: 5px solid #31611e;
+        }
+        /* Control Nav */
+        .flexslider .flex-control-nav {
+            position: absolute;
+            width: 100%;
+            bottom: -40px;
+            text-align: center;
+            margin: 0 0 0 -10px;
+        }
+        .flex-control-nav li {
+            display: inline-block;
+            zoom: 1;
+        }
+        .flex-control-paging li a {
+            display: block;
+            cursor: pointer;
+            text-indent: -9999px;
+            width: 12px;
+            height: 12px;
+            margin: 0 3px;
+            background-color: #b6b6b6 \9;
+            -webkit-border-radius: 12px;
+            -moz-border-radius: 12px;
+            border-radius: 12px;
+            -webkit-box-shadow: inset 0 0 0 2px #b6b6b6;
+            -moz-box-shadow: inset 0 0 0 2px #b6b6b6;
+            box-shadow: inset 0 0 0 2px #b6b6b6;
+        }
+        .flex-control-paging li a.flex-active {
+            background-color: #2B4D71;
+            background-image: -webkit-gradient(linear, left top, left bottom, from(#2B4D71), to(#072C53));
+            background-image: -webkit-linear-gradient(top, #2B4D71, #072C53);
+            background-image: -moz-linear-gradient(top, #2B4D71, #072C53);
+            background-image: -o-linear-gradient(top, #2B4D71, #072C53);
+            background-image: linear-gradient(to bottom, #2B4D71, #072C53);
+            -webkit-box-shadow: none;
+            -moz-box-shadow: none;
+            box-shadow: none;
+        }
+        /* Captions */
+        .flexslider .slides p {
+            display: block;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            padding: 0 5px;
+            margin: 0;
+            font-family: Helvetica, Arial, sans-serif;
+            font-size: 12px;
+            font-weight: bold;
+            text-transform: uppercase;
+            line-height: 20px;
+            color: white;
+            background-color: #222222;
+            background: rgba(0,0,0, .9);
+            -webkit-border-radius: 2px;
+            -moz-border-radius: 2px;
+            border-radius: 2px;
+        }
+    </style>
+</head>
+<body id="top">
+<div class="wrapper row1">
+    <div id="header" class="clear" >
+        <div class="fl_left">
+            <a href="http://quest.edu.pk" target="_blank"><img src="images/logo.png" style="padding:0px; height:100px;width:110px;margin:0px 0px -120px -70px;"></a>
+            <h1 style="margin-top:5px;margin-left:60px;"><a href="#">Computer Systems Engineering Department</a></h1>
+            <h2 style="margin-left:60px; margin-bottom:0px;">Quaid-e-awam University of Engineering, Science & Technology,</h2>
+            <h2 style="margin-left:60px;margin-bottom:0px;">Nawabshah-Pakistan</h2>
+
+        </div>
+    </div>
+</div>
+<!-- ####################################################################################################### -->
+<div class="wrapper row2">
+    <div class="main-navigation" style="line-height:14px;word-spacing:0px; width:765px;">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="pages/faculty.html">Faculty</a></li>
+            <li><a href="#">Programs</a>
+                <ul>
+                    <li><a href="pages/B-courses.html">Bachelors</a>
+                    </li>
+                    <li><a href="pages/under-construction.html">Masters</a>
+                    </li>
+                    <li><a href="pages/under-construction.html">PhD</a>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="#">Resources</a>
+                <ul>
+                    <li><a href="pages/lib.html">Library</a></li>
+                    <li><a href="pages/resourses.html">Labs</a></li>
+                    <li><a href="pages/under-construction.html">Downloads</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Research Groups</a>
+                <ul>
+                    <li><a href="pages/CV.html">Computer Vision</a></li>
+                    <li><a href="pages/NS.html">Network Security</a></li>
+                    <li><a href="pages/WSN.html">Wireless Sensor Network</a></li>
+                    <li><a href="pages/publications.html">Publications</a></li>
+                </ul>
+            </li>
+            <li><a href="pages/PEC.html">PEC Accedreditation</a></li>
+            <li  class="last"><a href="pages/contact.html">Contact</a></li>
+        </ul>
+        <div  class="clear"></div>
+    </div>
+</div>
+<!-- ####################################################################################################### -->
+
+<div class="wrapper row3">
+    <br>
+</div>
+<!-- ####################################################################################################### -->
+<div class="wrapper row4">
+    <div id="container" class="clear">
+        <!-- ####################################################################################################### -->
+        <div id="homepage" class="clear">
+
+            <!-- Slider -->
+            <script src="layout/scripts/jquery.min.js"></script>
+            <script src="layout/scripts/jquery.flexslider-min.js"></script>
+            <script>
+                $(document).ready(function () {
+                    $('.flexslider').flexslider({
+                        animation: 'fade',
+                        controlsContainer: '.flexslider'
+                    });
+                });
+            </script>
+            <div class="flex-container" style="margin-left:6.5%;">
+                <div class="flexslider" >
+                    <ul class="slides">
+                        <li>
+                            <img src="images/demo/featured-slide/1.jpg" alt="" />
+                        </li>
+                        <li>
+                            <img src="images/demo/featured-slide/2.jpg" alt="" />
+                        </li>
+                        <li>
+                            <img src="images/demo/featured-slide/3.jpg" alt="" />
+                        </li>
+                        <li>
+                            <img src="images/demo/featured-slide/4.jpg" alt="" />
+                        </li>
+                        <li>
+                            <img src="images/demo/featured-slide/5.jpg" alt="" />
+                        </li>
+                        <li>
+                            <img src="images/demo/featured-slide/6.jpg" alt="" />
+                        </li>
+                        <li>
+                            <img src="images/demo/featured-slide/7.jpg" alt="" />
+                        </li>
+                        <li>
+                            <img src="images/demo/featured-slide/8.jpg" alt="" />
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div id="left_column" style="width:18%;">
+            <div class="holder">
+                <h2 class="title" style="font-size:18px;">Quick Links</h2>
+                <ul class="nostart">
+                    <li style="margin-bottom:5px;"><a href="pages/under-construction.html">Virtual Tour</a></li>
+                    <li style="margin-bottom:5px;"><a href="pages/gallery.html">Gallery</a></li>
+                    <li style="margin-bottom:5px;"><a href="http://pec.org.pk" target="_blank">PEC Accerditation</a></li>
+                    <li style="margin-bottom:5px;"><a href="pages/under-construction.html">Scholarships</a></li>
+                    <li style="margin-bottom:5px;"><a href="pages/under-construction.html">Internships</a></li>
+                    <li style="margin-bottom:5px;"><a href="pages/under-construction.html">Downloads</a></li>
+                </ul>
+            </div><BR>
+            <div class="holder">
+                <h2 class="title" style="font-size:18px;">Map</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d114521.56188039047!2d68.35509907881085!3d26.235725999999993!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa3643f4b36eec24f!2sQuaid-e-Awam+University+of+Engineering%2C+Sciences+%26+Technology!5e0!3m2!1sen!2sus!4v1448440990398" width="170" height="170" style="border: 0px solid white;"></iframe>
+            </div>
+        </div>
+        <!-- ############ -->
+        <div id="content" style="width:55%;margin:-434px 0px 0px 195px;">
+            <h1 class="title" style="font-size:18px;">Mission and Vision</h1>
+            <p style="text-align:justify;font-size:110%;color:black">
+                The mission of the Department of Computer Systems Engineering is to prepare undergraduate and graduate students for productive careers
+                in industry, academia, and government by providing an outstanding environment for teaching, learning, and research in the theory and
+                applications of computing. The Department places high priority on establishing and maintaining innovative research programs to enhance
+                its education quality and achieve excellence in state-of-the-art research trends.
+            </p>
+            <br>
+            <h2 class="title" style="font-size:18px;margin-top:-2px;">Message from Chairman</h2>
+            <p style="text-align:justify; margin-left:120px; width:76%;;font-size:110%;color:black">Department of Computer Systems Engineering, as per its mission, strives to develop and maintain a high-quality, comprehensive, rigorous
+                and accredited teaching program in Computer Engineering to prepare graduates of competence, conscience, and compassion, who are prepared to
+                excel in the field of computing. </p>
+            <img src="images/pk-home.jpg" style="padding:0px; width:100px; height:100px;margin:-118px 0 0 0px;">
+            <p style="text-align:justify; margin-top: -3px;font-size:110%;color:black">In order to achieve this goal, we combine the theoritical foundations of computing with the practical
+                engineering knowledge vital to industry, to provide a broad and integrated curriculum.</p>
+        </div>
+        <!-- ############ -->
+        <div id="right_column" style="width:20%;margin:-434px 0px 0px 745px;">
+            <div class="holder">
+                <h2 class="title" style="font-size:18px;">News</h2>
+                <div class="scrolling_container">
+                    <p class="marquee">
+                        <a href="http://quest.edu.pk/attendance/MidTerm16Batch_28March2016/16CS%20new.pdf" target="_blank">MID-TERM ATTENDANCE REPORT: 16-Batches, QUEST</a>
+                        <br/><br/>
+                        <a href="http://quest.edu.pk/attendance/midterm_13_to_15Batches_21_3_2016/CSE.pdf" target="_blank">MID-TERM ATTENDANCE REPORT: 13 to 15-Batches, QUEST</a>
+                        <br/><br/>
+                        <a href="http://quest.edu.pk/album/index8.php" target="_self"><strong>Picture Gallery: </strong>8th Academic Convocation and Senate Meeting-2016</a>
+                        <br/><br/>
+                        <a href="http://quest.edu.pk/album/index6.php" target="_self"><strong>Picture Gallery: </strong>1st National Conference on Trends and Innovations in Information Technology-2016, TIIT'16</a>
+                    </p>
+                </div>
+            </div>
+            <br>
+            <div class="holder">
+                <h2 class="title" style="font-size:18px;margin-top:12px;">Upcomings</h2>
+                <p><a href="http://mcct.quest.edu.pk" target="_blank">2nd International Conference on Modern Communication &amp; Computing Technologies - MCCT'16</a><br><br>
+                    <a href="http://pec.org.pk" target="_blank">PEC Visit</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ####################################################################################################### -->
+<div class="wrapper">
+    <div id="copyright" class="clear">
+        <center><p class="fl_left">Copyright &copy; 2016-17 - All Rights Reserved <br> <a href="http://www.quest.edu.pk">QUEST, Nawabshah-Pakistan</a></p></center>
+        <center><p class="fl_right">Developed and Maintained by <br><a target="_blank" href="http://zuhaib-shaikh.neocities.org">Zuhaib A. Shaikh</a> | <a target="_blank" href="http://umair-khan.quest.edu.pk">Umair A. Khan</a></p></center>
+    </div>
+</div>
+</body>
+</html>

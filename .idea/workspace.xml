@@ -10,6 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="28a47f72-9b63-4390-a823-53972efe933d" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/contact.html" afterPath="$PROJECT_DIR$/pages/contact.html" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -25,51 +27,64 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="438">
-              <caret line="286" column="0" lean-forward="false" selection-start-line="236" selection-start-column="0" selection-end-line="286" selection-end-column="0" />
+            <state relative-caret-position="360">
+              <caret line="301" column="37" lean-forward="true" selection-start-line="301" selection-start-column="37" selection-end-line="301" selection-end-column="37" />
               <folding>
-                <marker date="1509709789466" expanded="false" signature="7835:7852" ph="..." />
-                <marker date="1509709789466" expanded="false" signature="8786:8796" ph="..." />
-                <marker date="1509709789466" expanded="false" signature="8859:8874" ph="..." />
-                <marker date="1509709789466" expanded="false" signature="8943:8961" ph="..." />
-                <marker date="1509709789466" expanded="false" signature="9046:9064" ph="..." />
-                <marker date="1509709789466" expanded="false" signature="9133:9151" ph="..." />
-                <marker date="1509709789466" expanded="false" signature="9245:9263" ph="..." />
-                <marker date="1509709789466" expanded="false" signature="9348:9366" ph="..." />
-                <marker date="1509709789466" expanded="false" signature="9444:9462" ph="..." />
-                <marker date="1509709789466" expanded="false" signature="9611:9626" ph="..." />
-                <marker date="1509709789466" expanded="false" signature="9959:9983" ph="..." />
-                <marker date="1509709789466" expanded="false" signature="10071:10109" ph="..." />
-                <marker date="1509709789466" expanded="false" signature="10143:10158" ph="..." />
-                <marker date="1509709789466" expanded="false" signature="10200:10218" ph="..." />
-                <marker date="1509709789466" expanded="false" signature="10764:10795" ph="..." />
-                <marker date="1509709789466" expanded="false" signature="10840:10889" ph="..." />
-                <marker date="1509709789466" expanded="false" signature="11253:11314" ph="..." />
-                <marker date="1509709789466" expanded="false" signature="11330:11367" ph="..." />
-                <marker date="1509709789466" expanded="false" signature="11638:11676" ph="..." />
-                <marker date="1509709789466" expanded="false" signature="11739:11754" ph="..." />
-                <marker date="1509709789466" expanded="false" signature="12628:12659" ph="..." />
-                <marker date="1509709789466" expanded="false" signature="12786:12791" ph="&amp;" />
-                <marker date="1509709789466" expanded="false" signature="13161:13167" ph="©" />
+                <element signature="e#10033#10079#0" expanded="true" />
+                <element signature="e#10162#10215#0" expanded="true" />
+                <element signature="e#10753#10792#0" expanded="true" />
+                <element signature="e#10829#10913#0" expanded="true" />
+                <element signature="e#11345#11416#0" expanded="true" />
+                <marker date="1509712280842" expanded="false" signature="7804:7821" ph="..." />
+                <marker date="1509712280842" expanded="false" signature="8755:8765" ph="..." />
+                <marker date="1509712280842" expanded="false" signature="8828:8843" ph="..." />
+                <marker date="1509712280842" expanded="false" signature="8912:8930" ph="..." />
+                <marker date="1509712280842" expanded="false" signature="9015:9033" ph="..." />
+                <marker date="1509712280842" expanded="false" signature="9102:9120" ph="..." />
+                <marker date="1509712280842" expanded="false" signature="9214:9232" ph="..." />
+                <marker date="1509712280842" expanded="false" signature="9317:9335" ph="..." />
+                <marker date="1509712280842" expanded="false" signature="9413:9431" ph="..." />
+                <marker date="1509712280842" expanded="false" signature="9580:9595" ph="..." />
+                <marker date="1509712280842" expanded="false" signature="9928:9952" ph="..." />
+                <marker date="1509712280842" expanded="false" signature="10112:10127" ph="..." />
+                <marker date="1509712280842" expanded="false" signature="11275:11336" ph="..." />
+                <marker date="1509712280842" expanded="false" signature="11685:11723" ph="..." />
+                <marker date="1509712280842" expanded="false" signature="11786:11801" ph="..." />
+                <marker date="1509712280842" expanded="false" signature="12675:12706" ph="..." />
+                <marker date="1509712280842" expanded="false" signature="12833:12838" ph="&amp;" />
+                <marker date="1509712280842" expanded="false" signature="13208:13214" ph="©" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contact.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pages/contact.html">
+      <file leaf-file-name="CV.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pages/CV.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="62" column="0" lean-forward="true" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+            <state relative-caret-position="384">
+              <caret line="86" column="69" lean-forward="false" selection-start-line="86" selection-start-column="69" selection-end-line="86" selection-end-column="69" />
               <folding>
-                <element signature="e#3266#3308#0" expanded="true" />
-                <element signature="e#3736#3775#0" expanded="true" />
-                <element signature="e#4061#4108#0" expanded="true" />
-                <element signature="e#4141#4179#0" expanded="true" />
-                <element signature="e#4322#4383#0" expanded="true" />
-                <element signature="e#4400#4440#0" expanded="true" />
-                <element signature="e#4552#4613#0" expanded="true" />
-                <element signature="e#4630#4670#0" expanded="true" />
+                <element signature="e#3474#3511#0" expanded="true" />
+                <element signature="e#3555#3592#0" expanded="true" />
+                <element signature="e#3617#3700#0" expanded="true" />
+                <element signature="e#4347#4414#0" expanded="true" />
+                <element signature="e#4604#4641#0" expanded="true" />
+                <element signature="e#4827#4852#0" expanded="true" />
+                <element signature="e#4888#4915#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PEC.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/PEC.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="182">
+              <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="76" selection-end-column="6" />
+              <folding>
+                <element signature="e#3404#3457#0" expanded="true" />
+                <element signature="e#3495#3516#0" expanded="true" />
+                <element signature="e#3545#3628#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -80,6 +95,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>map</find>
+      <find>pec</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -88,8 +104,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/pages/contact.html" />
+        <option value="$PROJECT_DIR$/pages/PEC.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/pages/CV.html" />
       </list>
     </option>
   </component>
@@ -126,6 +144,17 @@
             <path>
               <item name="CSEwebsite" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
               <item name="CSEwebsite" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CSEwebsite" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="CSEwebsite" type="462c0819:PsiDirectoryNode" />
+              <item name="layout" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CSEwebsite" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="CSEwebsite" type="462c0819:PsiDirectoryNode" />
+              <item name="layout" type="462c0819:PsiDirectoryNode" />
+              <item name="styles" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CSEwebsite" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
@@ -275,7 +304,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1509705697702</updated>
-      <workItem from="1509705700502" duration="4159000" />
+      <workItem from="1509705700502" duration="9242000" />
     </task>
     <task id="LOCAL-00001" summary="dafdf">
       <created>1509705815522</created>
@@ -295,7 +324,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4159000" />
+    <option name="totallyTimeSpent" value="9242000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
@@ -336,51 +365,95 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/pages/under-construction.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="286" column="0" lean-forward="false" selection-start-line="236" selection-start-column="0" selection-end-line="286" selection-end-column="0" />
-          <folding>
-            <marker date="1509709789466" expanded="false" signature="7835:7852" ph="..." />
-            <marker date="1509709789466" expanded="false" signature="8786:8796" ph="..." />
-            <marker date="1509709789466" expanded="false" signature="8859:8874" ph="..." />
-            <marker date="1509709789466" expanded="false" signature="8943:8961" ph="..." />
-            <marker date="1509709789466" expanded="false" signature="9046:9064" ph="..." />
-            <marker date="1509709789466" expanded="false" signature="9133:9151" ph="..." />
-            <marker date="1509709789466" expanded="false" signature="9245:9263" ph="..." />
-            <marker date="1509709789466" expanded="false" signature="9348:9366" ph="..." />
-            <marker date="1509709789466" expanded="false" signature="9444:9462" ph="..." />
-            <marker date="1509709789466" expanded="false" signature="9611:9626" ph="..." />
-            <marker date="1509709789466" expanded="false" signature="9959:9983" ph="..." />
-            <marker date="1509709789466" expanded="false" signature="10071:10109" ph="..." />
-            <marker date="1509709789466" expanded="false" signature="10143:10158" ph="..." />
-            <marker date="1509709789466" expanded="false" signature="10200:10218" ph="..." />
-            <marker date="1509709789466" expanded="false" signature="10764:10795" ph="..." />
-            <marker date="1509709789466" expanded="false" signature="10840:10889" ph="..." />
-            <marker date="1509709789466" expanded="false" signature="11253:11314" ph="..." />
-            <marker date="1509709789466" expanded="false" signature="11330:11367" ph="..." />
-            <marker date="1509709789466" expanded="false" signature="11638:11676" ph="..." />
-            <marker date="1509709789466" expanded="false" signature="11739:11754" ph="..." />
-            <marker date="1509709789466" expanded="false" signature="12628:12659" ph="..." />
-            <marker date="1509709789466" expanded="false" signature="12786:12791" ph="&amp;" />
-            <marker date="1509709789466" expanded="false" signature="13161:13167" ph="©" />
-          </folding>
+        <state relative-caret-position="90">
+          <caret line="5" column="49" lean-forward="false" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="49" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/contact.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="62" column="0" lean-forward="true" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+        <state relative-caret-position="168">
+          <caret line="77" column="48" lean-forward="true" selection-start-line="77" selection-start-column="48" selection-end-line="77" selection-end-column="48" />
           <folding>
+            <element signature="e#851#925#0" expanded="true" />
+            <element signature="e#947#987#0" expanded="true" />
+            <element signature="e#1065#1109#0" expanded="true" />
+            <element signature="e#1193#1236#0" expanded="true" />
+            <element signature="e#1468#1523#0" expanded="true" />
             <element signature="e#3266#3308#0" expanded="true" />
             <element signature="e#3736#3775#0" expanded="true" />
-            <element signature="e#4061#4108#0" expanded="true" />
-            <element signature="e#4141#4179#0" expanded="true" />
-            <element signature="e#4322#4383#0" expanded="true" />
-            <element signature="e#4400#4440#0" expanded="true" />
-            <element signature="e#4552#4613#0" expanded="true" />
-            <element signature="e#4630#4670#0" expanded="true" />
+            <element signature="e#3793#3812#0" expanded="true" />
+            <element signature="e#3849#3883#0" expanded="true" />
+            <element signature="e#4120#4167#0" expanded="true" />
+            <element signature="e#4200#4238#0" expanded="true" />
+            <element signature="e#4255#4289#0" expanded="true" />
+            <element signature="e#4416#4477#0" expanded="true" />
+            <element signature="e#4494#4561#0" expanded="true" />
+            <element signature="e#4673#4734#0" expanded="true" />
+            <element signature="e#4751#4818#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="301" column="37" lean-forward="true" selection-start-line="301" selection-start-column="37" selection-end-line="301" selection-end-column="37" />
+          <folding>
+            <element signature="e#10033#10079#0" expanded="true" />
+            <element signature="e#10162#10215#0" expanded="true" />
+            <element signature="e#10753#10792#0" expanded="true" />
+            <element signature="e#10829#10913#0" expanded="true" />
+            <element signature="e#11345#11416#0" expanded="true" />
+            <marker date="1509712280842" expanded="false" signature="7804:7821" ph="..." />
+            <marker date="1509712280842" expanded="false" signature="8755:8765" ph="..." />
+            <marker date="1509712280842" expanded="false" signature="8828:8843" ph="..." />
+            <marker date="1509712280842" expanded="false" signature="8912:8930" ph="..." />
+            <marker date="1509712280842" expanded="false" signature="9015:9033" ph="..." />
+            <marker date="1509712280842" expanded="false" signature="9102:9120" ph="..." />
+            <marker date="1509712280842" expanded="false" signature="9214:9232" ph="..." />
+            <marker date="1509712280842" expanded="false" signature="9317:9335" ph="..." />
+            <marker date="1509712280842" expanded="false" signature="9413:9431" ph="..." />
+            <marker date="1509712280842" expanded="false" signature="9580:9595" ph="..." />
+            <marker date="1509712280842" expanded="false" signature="9928:9952" ph="..." />
+            <marker date="1509712280842" expanded="false" signature="10112:10127" ph="..." />
+            <marker date="1509712280842" expanded="false" signature="11275:11336" ph="..." />
+            <marker date="1509712280842" expanded="false" signature="11685:11723" ph="..." />
+            <marker date="1509712280842" expanded="false" signature="11786:11801" ph="..." />
+            <marker date="1509712280842" expanded="false" signature="12675:12706" ph="..." />
+            <marker date="1509712280842" expanded="false" signature="12833:12838" ph="&amp;" />
+            <marker date="1509712280842" expanded="false" signature="13208:13214" ph="©" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/PEC.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="76" selection-end-column="6" />
+          <folding>
+            <element signature="e#3404#3457#0" expanded="true" />
+            <element signature="e#3495#3516#0" expanded="true" />
+            <element signature="e#3545#3628#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/CV.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="86" column="69" lean-forward="false" selection-start-line="86" selection-start-column="69" selection-end-line="86" selection-end-column="69" />
+          <folding>
+            <element signature="e#3474#3511#0" expanded="true" />
+            <element signature="e#3555#3592#0" expanded="true" />
+            <element signature="e#3617#3700#0" expanded="true" />
+            <element signature="e#4347#4414#0" expanded="true" />
+            <element signature="e#4604#4641#0" expanded="true" />
+            <element signature="e#4827#4852#0" expanded="true" />
+            <element signature="e#4888#4915#0" expanded="true" />
           </folding>
         </state>
       </provider>

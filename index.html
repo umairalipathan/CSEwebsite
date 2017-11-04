@@ -13,6 +13,28 @@
 .flex-container a:focus,
 .flexslider a:focus  { outline: none; }
 
+
+
+
+.social {
+    font-size: 1px;
+}
+
+/* This gets Facebook to fall into place */
+.social iframe {
+    vertical-align: middle;
+}
+
+/* Set an optional width for your button wrappers */
+.social span {
+    display: inline-block;
+    width: 110px;
+}
+
+/* Adjust the widths individually if you like */
+.social .google {
+    width: 75px;
+}
 .slides,
 .flex-control-nav,
 .flex-direction-nav {
@@ -233,21 +255,35 @@ margin-right:auto;
 	border-radius: 2px;
 }
 </style>
+
 </head>
 <body id="top">
 <div class="wrapper row1">
   <div id="header" class="clear" >
     <div class="fl_left">
-      <a href="http://quest.edu.pk" target="_blank"><img src="images/logo.png" style="padding:0px; height:100px;width:110px;margin:0px 0px -120px -70px;"></a>
-      <h1 style="margin-top:5px;margin-left:60px;"><a href="#">Computer Systems Engineering Department</a></h1>
-      <h2 style="margin-left:60px; margin-bottom:0px;">Quaid-e-awam University of Engineering, Science & Technology,</h2>
-	  <h2 style="margin-left:60px;margin-bottom:0px;">Nawabshah-Pakistan</h2>
-	 
+      <a href="http://quest.edu.pk" target="_blank"><img src="images/CSE2.png" style="padding:0px; height:100px;width:110px;margin:0px 0px -120px -70px;"></a>
+      <h1 style="margin-top:5px;margin-left:60px"><a href="#">Computer Systems Engineering Department</a></h1>
+      <h2 style="margin-left:60px; margin-bottom:0px;color:greenyellow">Quaid-e-awam University of Engineering, Science & Technology,</h2>
+	  <h2 style="margin-left:60px;margin-bottom:0px;color:greenyellow">Nawabshah-Pakistan</h2>
   </div>
+
+  <div style="margin-left:90%">
+      <a href="http://quest.edu.pk" target="_blank"><img src="images/quest.png" style="padding:0px; height:100px;width:110px;margin:0px 0px -120px -70px;"></a>
+  </div>
+  <div style="margin-left:100%;width:17%;margin-top:8%">
+      <div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+          <a class="a2a_button_facebook"></a>
+          <a class="a2a_button_twitter"></a>
+          <a class="a2a_button_google_plus">
+              <a class="a2a_button_linkedin"></a>
+      </div>
+      <script async src="https://static.addtoany.com/menu/page.js"></script>
+  </div>
+
   </div>
 </div>
 <!-- ####################################################################################################### -->
-<div class="wrapper row2">
+<div class="wrapper row2" style="margin-top:-1%">
   <div class="main-navigation" style="line-height:14px;word-spacing:0px; width:765px;">
     <ul>
       <li><a href="index.html">Home</a></li>  
@@ -272,8 +308,8 @@ margin-right:auto;
 	  <li><a href="#">Research Groups</a>
         <ul>
           <li><a href="pages/CV.html">Computer Vision</a></li>
-          <li><a href="pages/under-construction.html">Network Security</a></li>
-          <li><a href="pages/under-construction.html">Wireless Sensor Network</a></li>
+          <li><a href="pages/NS.html">Network Security</a></li>
+          <li><a href="pages/WSN.html">Wireless Sensor Network</a></li>
 		  <li><a href="pages/publications.html">Publications</a></li>
         </ul>
       </li>
@@ -309,28 +345,28 @@ margin-right:auto;
     <div class="flexslider" >
         <ul class="slides">
             <li>
-                <img src="images/demo/featured-slide/1.jpg" alt="" />
+                <img src="images/demo/featured-slide/1.JPG" alt="" />
             </li>
             <li>
-                <img src="images/demo/featured-slide/2.jpg" alt="" />
+                <img src="images/demo/featured-slide/2.JPG" alt="" />
             </li>
             <li>
-                <img src="images/demo/featured-slide/3.jpg" alt="" />
+                <img src="images/demo/featured-slide/3.JPG" alt="" />
             </li>
 			<li>
-                <img src="images/demo/featured-slide/4.jpg" alt="" />
+                <img src="images/demo/featured-slide/4.JPG" alt="" />
             </li>
 			<li>
-                <img src="images/demo/featured-slide/5.jpg" alt="" />
+                <img src="images/demo/featured-slide/5.JPG" alt="" />
             </li>
 			<li>
-                <img src="images/demo/featured-slide/6.jpg" alt="" />
+                <img src="images/demo/featured-slide/6.JPG" alt="" />
             </li>
 			<li>
-                <img src="images/demo/featured-slide/7.jpg" alt="" />
+                <img src="images/demo/featured-slide/7.JPG" alt="" />
             </li>
 			<li>
-                <img src="images/demo/featured-slide/8.jpg" alt="" />
+                <img src="images/demo/featured-slide/8.JPG" alt="" />
             </li>
         </ul>
     </div>
@@ -397,6 +433,7 @@ margin-right:auto;
 			<a href="http://pec.org.pk" target="_blank">PEC Visit</a>
 			</p>
       </div>
+
     </div>	
   </div>
 </div>

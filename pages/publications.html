@@ -11,6 +11,42 @@
 <link rel="stylesheet" href="../layout/scripts/liteaccordion-v2.2/css/liteaccordion.css" type="text/css" />
 </head>
 <body id="top">
+
+
+<script language="javascript" type="text/javascript">
+    function showHide(shID) {
+        if (document.getElementById(shID)) {
+            if (document.getElementById(shID+'-show').style.display != 'none') {
+                document.getElementById(shID+'-show').style.display = 'none';
+                document.getElementById(shID).style.display = 'block';
+            }
+            else {
+                document.getElementById(shID+'-show').style.display = 'inline';
+                document.getElementById(shID).style.display = 'none';
+            }
+        }
+    }
+</script>
+<style type="text/css">
+
+    /* This CSS is used for the Show/Hide functionality. */
+    .more {
+        display: none;
+        border-top: 1px solid #666;
+        border-bottom: 1px solid #666; }
+    a.showLink, a.hideLink {
+        text-decoration: none;
+        color: #36f;
+        padding-left: 8px;
+        background: transparent url(down.gif) no-repeat left; }
+    a.hideLink {
+        background: transparent url(up.gif) no-repeat left; }
+    a.showLink:hover, a.hideLink:hover {
+        border-bottom: 1px dotted #36f; }
+</style>
+
+
+
 <div class="wrapper row1">
     <div id="header" class="clear" >
         <div class="fl_left">
@@ -39,17 +75,17 @@
                 <ul>
                     <li><a href="B-courses.html">Bachelors</a>
                     </li>
-                    <li><a href="under-construction.html">Masters</a>
+                    <li><a href="B-courses-masters.html">Masters</a>
                     </li>
-                    <li><a href="under-construction.html">PhD</a>
+                    <li><a href="B-courses-phd.html">PhD</a>
                     </li>
                 </ul>
             </li>
             <li><a href="#">Resources</a>
                 <ul>
-                    <li><a href="lib.html">Library</a></li>
-                    <li><a href="resourses.html">Labs</a></li>
-                    <li><a href="under-construction.html">Downloads</a></li>
+                    <li><a href="library.html">Library</a></li>
+                    <li><a href="labs.html">Labs</a></li>
+                    <li><a href="http://quest.edu.pk/downloads/downloads.php">Downloads</a></li>
                 </ul>
             </li>
             <li><a href="#">Research Groups</a>
@@ -66,21 +102,379 @@
         <div  class="clear"></div>
     </div>
 </div>
-<!-- ####################################################################################################### -->
+########################################################################################### -->
 
 <div class="wrapper row3">
 <br>
 </div>
 <!-- ####################################################################################################### -->
-<iframe src="research/publications.html" style="border:0px;width:100%;height:885px;position:center;overflow:hidden;padding:0px 0px 2px 0px;" scrolling="no">
+<!--<iframe src="research/publications.html" style="border:0px;width:100%;height:885px;position:center;overflow:hidden;padding:0px 0px 2px 0px;" scrolling="no">-->
 
-</iframe>
+<!--</iframe>-->
+
+<div class="wrapper row4">
+    <br><br>
+        <h2 style="margin-left:10%">Dr. Pardeep Kumar</h2>
+        <p style="font-size:16px;margin-left:10%"><b><u>Book Chapters</u></b></p>
+    <ol>
+        <li style="margin-left:10%">1. Pardeep Kumar & Mesut Guenes, Medium Access Control Protocols in Wireless Sensor Networks: Design Space, Challenges, and Future Directions, Wireless Sensor Networks and Energy Efficiency: Protocols, Routing and Management, IGI Global Publisher, January 2012.</li>
+    </ol>
+
+    <p style="font-size:16px;margin-left:10%"><b><u>Journal Publications</u></b></p>
+    <ol>
+        <li style="margin-left:10%">Ali Raza Bhangwar, Pardeep Kumar, Adnan Ahmed & Muhammad Ibrahim Channa, ?Trust and Thermal Aware Routing Protocol (TTRP) for Wireless Body Area Networks?, published in the Springer Wireless Personal Communications Journal</li>
+        <li style="margin-left:10%">Rafia Naz Memon, Shah Zaman Nizamani, Farida Memon, Irfana Memon & Pardeep Kumar, "A Problem Analysis Method on Soft System Methodology in Requirements Engineering Process", published in the Quaid-e-Awam University Research Journal 15 (1), 81-90, Jan - July 2016</li>
+        <li style="margin-left:10%"> Sajida Parveen, Sharifah Mumtazah, Nadeem Naeem, Intesab Hussain and Pardeep Kumar, ?Complete Local Binary Pattern and Spatial Structure of Live Faces?, published in the Science International Journal Lahore Pakistan, 28(6), Page 5219-5222, ISSN 1013-5316, Nov-Dec, 2016.</li>
+        <li style="margin-left:10%"> Shahzana Memon, Pardeep Kumar, Umair Ali Khan & Tanesh Kumar, ?Performance Evaluation of Mobile Ad-hoc Routing Mechanisms?, published in the Springer Wireless Personal Communications Journal, Volume 85, Issue 2, Page 377-392, November, 2015.</li>
+        <li style="margin-left:10%"> Rafia Naz Memon, Irfana Memon, Shah Zaman Nizamani, Fiza Siyal & Pardeep Kumar, ?ALL-RE: A Model for Teaching and Learning Requirements Engineering?, published in the QUEST Research Journal 14 (2), 45-52, July-Dec 2015</li>
+        <li style="margin-left:10%"> Pardeep Kumar, Irfana Memon, Bhawani S Chowdhry & Mesut Guenes, ?Implementation and Evaluation of AREA-MAC Protocol on the DES-Testbed Platform", published in the Springer Wireless Personal Communications Journal, Volume 82, Issue 1, pp 595?609, May 2015</li>
+        <li style="margin-left:10%">  Irfana Memon, Pardeep Kumar, Nisar A Memon & Bhawani S Chowdhry, ?Secure Coverage Tree Construction Scheme for Wireless Sensor Networks", published in the Springer Wireless Personal Communications Journal, Volume 82, Issue 1, pp 659?674, May 2015.</li>
+        <li style="margin-left:10%">  Zakria, Tanesh Kumar, Pardeep Kumar, S.H.A Musavi, Agha Shahriyar & Abdul Khaliq, ?PIC Microcontroller Based Control and Automation of a Poultry Farm?, The New Horizon Journal of the Institute of Electrical and Electronics Engineers Pakistan (IEEEP) Lahore, Volume 84-85, 2014-15</li>
+        <li style="margin-left:10%">  Shahzana Memon, Pardeep Kumar, Intesab Hussain Sadhayo, ?The Classification and Analysis of MANET Routing Protocols?, published in the Quaid-e-Awam University Research Journal of Engineering, Science & Technology, Volume 13, No. 2, Jul-Dec. 2014</li>
+        <li style="margin-left:10%">  Tanesh Kumar, Pardeep Kumar, K R Dayo, B S Chowdhry & B Pandey, ?LVTTL IO Standards and Capacitance Scaling Based Energy Efficient AKU Design on FPGA", published in the NED University Research Journal, Karachi, Pakistan, December 2014.</li>
+        <li style="margin-left:10%">  Abd Albasset Almamou & Pardeep Kumar, ?Self-Organization Schemes in Different Wireless Networks", published in the NED University Research Journal, Karachi, Pakistan, December 2014.</li>
+        <li style="margin-left:10%">  Tanesh Kumar, K R Dayo, Pardeep Kumar, B S Chowdhry & B Pandey, ?Thermal Aware Energy Efficient ALU Design on Different FPGA", published in the NED University Research Journal, Karachi, Pakistan, December 2014.</li>
+        <li style="margin-left:10%">  Intesab H Sadhayo, Fareed A Jokhio, Umair A Khan, Pardeep Kumar, Nisar A Memon, "Preventing Spit with Naive Bayes in VoIP Communication" published in the QUEST Research Journal 13 (1), 29-35, Jan-Jul 2014</li>
+        <li style="margin-left:10%">  Wanod Kumar, Pardeep Kumar & Irfan A. Halepoto, ?Performance Analysis of an Energy Efficient Femtocell Network Using Queuing Theory?, published in the Mehran University Research Journal of Engineering & Technology, Volume 32, Number 3, July 2013</li>
+        <li style="margin-left:10%">  Pardeep Kumar, Sadia Marwat, M. Ibrahim Channa, Akhtar H. Jalbani and Nisar A. Memon, "Performance Evaluation of Wireless Sensor Networks with Varying Radio Properties", published in the Sindh University Research Journal, Page# 91-98, Volume 45, Number A-1, March 2013</li>
+        <li style="margin-left:10%">  Sadia Marwat, M. Ibrahim Channa, Pardeep Kumar, Akhtar H. Jalbani and Nisar A. Memon, "Load Balancing Handovers through Femto Cell Cooperation (FCC)", published in the Sindh University Research Journal, Page# 99-104, Volume 45, Number A-1, March 2013</li>
+        <li style="margin-left:10%">  Anees A. Soomro, Akhtar Hussain, Pardeep Kumar, M. Ibrahim Channa and Nisar A. Memon, "An Intelligent Assessment Tool for IT Professional", published in the Quaid-e-Awam University of Engineering, Science & Technology Research Journal, Volume 11, Number 1, 2012</li>
+        <li style="margin-left:10%">  M. Ibrahim Channa, Akhtar Hussain Jalbani & Pardeep Kumar, "A Survey of Power Aware Routing Schemes for Mobile Ad Hoc Networks", published in the International Journal of Computer Applications 58(11):48-50, November 2012. Published by Foundation of Computer Science, New York, USA, doi 10.5120/9330-3635</li>
+        <li style="margin-left:10%">  Pardeep Kumar, Iftikhar A. Koondhar, Akhtar H. Jalbani, Agha Shiraz A. Khan, &  M. Aamir Bhutto "A Study Related to Protocol and Ports Usage for the ISA Server", published in the Quaid-e-Awam University of Engineering, Science & Technology Research Journal, Volume 11, Number 2, 2012</li>
+        <li style="margin-left:10%">  Akhtar H. Jalbani, Pardeep Kumar, M. Ibrahim Channa, Anees A. Soomro & Chee Wai Mak, "Coin Recognition based on Heuristic Segmentation and Image Fusion via Bayesian Approach", published in the Quaid-e-Awam University of Engineering, Science & Technology Research Journal, Volume 11, Number 2, 2012</li>
+        <li style="margin-left:10%">  Ali Raza Bhangwar, Pardeep Kumar & Adnan Ahmed, "Web Susceptibilities and their Prevention in Pakistan", published in the Quaid-e-Awam University of Engineering, Science & Technology Research Journal, Volume 11, Number 2, 2012</li>
+        <li style="margin-left:10%">  Pardeep Kumar, Akhtar H. Jalbani, M. Ibrahim Channa, Anees A. Soomro & Iftikhar A. Koondhar, "Design, Challenges and Future Research Aspects of MAC Protocols for Wireless Sensor Networks", published in the Quaid-e-Awam University of Engineering, Science & Technology Research Journal, Volume 11, Number 2, 2012</li>
+        <li style="margin-left:10%">  Pardeep Kumar, Mesut Guenes, Qasim Mushtaq & Bastian Blywis, ?A Real-Time and Energy-Efficient MAC Protocol for Wireless Sensor Networks", published in the International Journal of Ultra Wideband Communications and Systems (IJUWBCS), Volume 1, Issue 2, 2009, Page# 128-142, doi:10.1504/IJUWBCS.2009.029002</li>
+    </ol>
+    <p style="font-size:16px;margin-left:10%"><b><u>Conference Publications</u></b></p>
+    <ol>
+        <li style="margin-left:10%"> Adnan Ahmed, Pardeep Kumar, Ali Raza Bhangwar & M Ibrahim Channa, ?A secure and QoS aware routing protocol for Wireless Sensor Network?, 11th International Conference for Internet Technology and Secured Transactions (ICITST), Dec 5 -7, 2016, Barcelona, Spain</li>
+        <li style="margin-left:10%"> Ahmed Mujtaba Chang, Wanod Kumar, Bhawani Shankar Chowdhry & Pardeep Kumar, ?Design of Low Cost Mechanomyogram Device for Gesture Detection?, 2nd International Conference on Information and Communication Technologies for Ageing Well and e-Health, ICT4AWE?16, Rome, Italy, April, 2016</li>
+        <li style="margin-left:10%"> Muhammad Hunain Memon, Wanod Kumar, Azam Rafique Memon, Bhawani S. Chowdhry, Muhammad Aamir & Pardeep Kumar, ?Internet of Things (IoT) Enabled Smart Animal Farm?, 10th IEEE INDIACom Conference on Computing for Sustainable Global Development, New Delhi, India, 16 - 18 March, 2016</li>
+        <li style="margin-left:10%"> M. F. L Abdullah, Bhagwan Das, Mohd Shah Nor Shahida, Siti Nurul Sharina Mat Yaccob, Nurul Nadiah Shamsuddin & Pardeep Kumar, ?High Performance and High Range Design of 100Gb/s Optical Differential Phase Shift keying Transmitter?, International Conference on Recent Trends in Computer Science and Electronics, Kuala Lumpur, Malaysia, 02 - 03 January, 2016</li>
+        <li style="margin-left:10%"> Zakria, Tanesh Kumar, Pardeep Kumar, S.H.A Musavi, Agha Shahriyar & Abdul Khaliq, ?PIC Microcontroller Based Control and Automation of a Poultry Farm?, 30th IEEEP International Multi-Topic Symposium, Karachi, Pakistan, 25 - 26 March, 2015</li>
+        <li style="margin-left:10%"> Pardeep Kumar, Mir Saleemullah, Tanesh Kumar, Bishwajeet Panday, ?An Architectural Approach towards the Integration of Different IoT Technologies?, 9th INDIACom 2015 - 2nd International Conference on ?Computing for Sustainable Global Development? March 11-13, 2015 at BVICAM, New Delhi.</li>
+        <li style="margin-left:10%"> Tanesh Kumar, Bishwajeet Pandey, Kr Dayo, B.S Chowdhry and Pardeep Kumar, ?Thermal Aware Energy Efficient ALU Design on Ultra Scale FPGA?, 1st International Conference on Modern Communication & Computing Technologies, MCCT?14, Nawabshah, Pakistan, 26th to 28th February, 2014</li>
+        <li style="margin-left:10%"> Mir Saleemullah Jamali, Pardeep Kumar and Umair Ali Khan, ?Internet of Things: Architecture & Integration with Other Networks?, 1st International Conference on Modern Communication & Computing Technologies, MCCT?14, Nawabshah, Pakistan, 26th to 28th February, 2014</li>
+        <li style="margin-left:10%"> Abd Albasset Almamou and Pardeep Kumar, ?Survey: Self-Organization in Wireless Networks?, 1st International Conference on Modern Communication & Computing Technologies, MCCT?14, Nawabshah, Pakistan, 26th to 28th February, 2014</li>
+        <li style="margin-left:10%"> Tanesh Kumar, Bishwajeet Pandey, Kr Dayo, B.S Chowdhry and Pardeep Kumar, ?LVTTL Based High Performance Energy Efficient 64-bit ALU Design on FPGA?, 1st International Conference on Modern Communication & Computing Technologies, MCCT?14, Nawabshah, Pakistan, 26th to 28th February, 2014</li>
+        <li style="margin-left:10%"> Pardeep Kumar, Sadia Marwat, M. Ibrahim Channa, Akhtar H. Jalbani and Nisar A. Memon, "Duty Cycle Effect on Wireless Sensor Networks", 3rd International Conference on Computer & Emerging Technologies, Shah Abdul Latif University, Khairpur Mirus, Sindh, Pakistan, March, 2013</li>
+        <li style="margin-left:10%"> Sadia Marwat, M. Ibrahim Channa, Pardeep Kumar, Akhtar H. Jalbani and Nisar A. Memon, "Femto Cell Cooperation for Always Best Connected", 3rd International Conference on Computer & Emerging Technologies, Shah Abdul Latif University, Khairpur Mirus, Sindh, Pakistan, March, 2013</li>
+        <li style="margin-left:10%"> Pardeep Kumar, Mesut Guenes, Qasim Mushtaq & Jochen Schiller, ?Performance Evaluation of AREA-MAC: A Cross-Layer Perspective", Fifth International Conference on Mobile Computing and Ubiquitous Networking (ICMU 2010), Seattle, America, April 2010</li>
+        <li style="margin-left:10%"> Pardeep Kumar, Mesut Guenes, Qasim Mushtaq & Jochen Schiller, ?Optimizing Duty-Cycle for Delay and Energy Bound WSN Applications", Third International Symposium on Applications of Ad hoc and Sensor Networks (AASNET '10), Perth, Australia, April 2010</li>
+        <li style="margin-left:10%"> Bastian Blywis, Mesut Guenes, Felix Juraschek, Philipp Schmidt & Pardeep Kumar, ?DES-SERT: A Framework for Structured Routing Protocol Implementation", IFIP Wireless Days, Paris, France, December 2009</li>
+        <li style="margin-left:10%"> Abd Al Basset Almamou, Raphaela Wrede, Pardeep Kumar, Houda Labiod & Jochen Schiller, ?Performance Evaluation of Routing Protocols in a Real-World WSN", IEEE Global Information Infrastructure Symposium (IEEE GIIS 2009), Hammamet, Tunisia, June 2009</li>
+        <li style="margin-left:10%"> Pardeep Kumar, Mesut Guenes, Qasim Mushtaq & Bastian Blywis, ?A Real-Time and Energy-Efficient MAC Protocol for Wireless Sensor Networks", Sixth IEEE International Conference on Wireless and Optical Communications Networks, Cairo, Egypt, April 2009</li>
+        <li style="margin-left:10%"> Pardeep Kumar, Mesut Guenes, Abd Al Basset Almamou & Jochen Schiller, ?Enhancing IEEE 802.15.4 for Low-latency, Bandwidth, and Energy Critical WSN Applications? IEEE International Conference on Emerging Technologies (ICET), Rawalpindi, Pakistan, 18-19 October, 2008</li>
+        <li style="margin-left:10%"> Pardeep Kumar, Mesut Guenes, Abd Al Basset Almamou & Jochen Schiller, ?Real-time, Bandwidth, and Energy Efficient IEEE 802.15.4 for Medical Applications", 7. GI/ITG KuVS Fachgespraech `Drahtlose Sensornetze', FU Berlin, Germany, September 2008</li>
+        <li style="margin-left:10%"> Pardeep Kumar & Mesut Guenes, ?MAC Protocols for Low-latency and Energy-efficient WSN Applications", Technical Report# TR-B-08-18, FU Berlin, Germany, December 2008.</li>
+    </ol>
+
+    <h2 style="margin-left:10%">Prof. Dr. Nisar Ahmed Memon</h2>
+    <ol>
+        <li style="margin-left:10%"> Nisar Ahmed Memon, Syed Asif Mehmood Gilani, ?Watermarking of Chest CT Scan Medical Images for Content Authentication?, International Journal of Computer Mathematics, Taylor & Francis, UK, ISSN 1029-0265, 2010.</li>
+        <li style="margin-left:10%"> Shaukat Iqbal, Nisar Ahmed Memon, ?Numerical Solution of Singular Two-Point Boundary Value Problems Using Galerkin?s Finite Element Method?, QUEST Research Journal, August 2010.</li>
+        <li style="margin-left:10%"> Nisar Ahmed Memon, A. Khan, M. Ahmad, ?Reversible Watermarking Method Based on Adaptive Thresholding and Companding Technique?, International Journal of Computer Mathematics, Taylor & Francis, UK, ISSN 1029-0265,  2010.</li>
+        <li style="margin-left:10%"> Nisar Ahmed Memon, Syed Asif Mehmood Gilani, Mushtaq Ahmad, Zulfiqar Ali Keerio,  ?Hybrid Watermarking of Medical Images for ROI Authentication and Recovery?, International Journal of Computer Mathematics, Taylor & Francis, UK, ISSN 1029-0265, 2010.</li>
+        <li style="margin-left:10%"> Asmatuallah Chaudhry, Anwar M. Mirza, Nisar Ahmed Memon, ?Fusion of Linear and Non-Linear Image Restoration Filters using Genetic Programming?, Mehran University Research Journal of Engineering and Technology, Volume 28, No. 4, October 2009.</li>
+        <li style="margin-left:10%"> Asad Ali, Syed Asif Mehmood Gilani, Nisar Ahmed Memon, ?Affine Invariant Contour Descriptors using Independent Component Analysis and Dyadic Wavelet Transform?, Journal of Computing and Information Technology, CIT No. 16 Vol. 3, pp. 169-181, 2008.</li>
+        <li style="margin-left:10%"> Nisar Ahmed Memon, Abdul Qadeer Khan Rajput, ?Deficiencies of Lung Segmentation Techniques Using CT Scan Images for CAD?, Mehran University Research Journal of Engineering and Technology, Volume 25, No. 3, July 2006.</li>
+        <li style="margin-left:10%"> Muhammed Uzair, Anwar Majid Mirza, Nisar Ahmed Memon, ?Improvement on Prims?s MST Based Algorithm using Multi-element Heap Nodes?, Mehran University Research Journal of Engineering and Technology, Vol. 25 No. 1 January 2006.</li>
+        <li style="margin-left:10%"> Abdul Qadeer Khan Rajput, Arabab Ali, Samejo, Nisar Ahmed Memon, ?Development of Fast Storage System for a Large Multimedia Server to Achieve High Speed Networking?, Mehran University Research Journal of Engineering and Technology, Vol. 18, No. 4, October 1999.</li>
+        <li style="margin-left:10%"> Nisar Ahmed Memon, Syed Asif Mehmood Gilani, Asad Ali, ?Watermarking of Medical Images for Content Authentication?, Proceedings of IEEE International Conference on Information and Communication Technologies (ICICT) 2009, August 15-16, 2009, Karachi, Pakistan.</li>
+        <li style="margin-left:10%"> Nisar Ahmed Memon, S.A.M., Gilani, ?NROI watermarking of Medical Images for Content Authentication?, Proceedings of IEEE INMIC  Multitopic Conference, December 23-24, 2008 Karachi, Pakistan.</li>
+        <li style="margin-left:10%"> Asad Ali, S.A.M. Gilani, Nisar Ahmed. Memon, ?Affine Normalized Invariant functionals using Independent Component Analysis?, 10th IEEE International Conference Multi-topic Conference 23-24 Dec 2006, Islamabad, Pakistan.</li>
+        <li style="margin-left:10%"> Nisar Ahmed Memon, Anwar Majid Mirza, S.A.M. Gilani, ?Deficiencies of Lung Segmentation Techniques using CT Scan Images for CAD?, Proceedings of 2006 Enformatika, XIV International Conference August 25-27, 2006, Prague, Czech Republic</li>
+        <li style="margin-left:10%"> Nisar Ahemed Memon, Anwar Majid Mirza, S.A.M. Gilani, ?Segmentation of Lungs from CT Scan Images for Early Diagnosis of Lung Cancer?, Proceedings of 2006 Enformatika, XIV International Conference August 25-27, 2006, Prague, Czech Republic.</li>
+    </ol>
+    <h2 style="margin-left:10%">Dr. Umair Ali Khan</h2>
+    <p style="font-size:16px;margin-left:10%"><b><u>Journal Publications</u></b></p>
+    <ol>
+        <li style="margin-left:10%"> U. A. Khan and B. Rinner. "Online Learning of Timeout Policies for Dynamic Power Management". ACM Transactions on Embedded Computing Systems, Vol. 13, No. 4, Article 96, 25 pages, February 2014 (DOI: http://dx.doi.org/10.1145/2529992).</li>
+        <li style="margin-left:10%"> S. Memon, P. Kumar, U. A. Khan, "Performance Evaluation of MANET Routing Mechanisms", Springer's Special Issue on Wireless Personal Communication, vol. 82, No. 3, pp. 1-18, 2015.</li>
+        <li style="margin-left:10%"> M.A. Rajput, U.A. Khan, N. A. Memon, I. Memon, "Frequency Domain Image Filtering Using CUDA", Mehran University Research Journal of Engineering & Technology, vol. 33, No. 4, pp. 423-431, 2014.  </li>
+        <li style="margin-left:10%"> U. A. Khan, F .A. Jokhio, I. H. Sadhayo, ?Reinforcement Learning for Dynamic Power Management of Embedded Visual Sensor Nodes?, Mehran University Research Journal of Engineering & Technology, vol. 33, No.2, 2014.</li>
+        <li style="margin-left:10%"> J.C. Chedjou, K. Kyamakya, M. A. Latif, U. A. Khan, ?Solving Stiff Ordinary Differential Equations and Partial Differential Equations Using Analog Computing Based on Cellular Neural Networks?, In ISAST Transactions on Computers and Intelligent Systems, Vol.1, No. 2, pp. 38 - 46., 2009.</li>
+        <li style="margin-left:10%"> U. A. Khan, S. R. Hassan, I. H. Sadhayo, Z.H.Abro, ?Real-Time Driver?s Vigilance Detections System?, Quest Research Journal, vol. 12, No.1, 2013.</li>
+        <li style="margin-left:10%"> I. H. Sadhayo, F. A. Jokhio, U. A. Khan, P. Kumar, N. A. Memon, "Preventing SPIT with Naive Bayes in    VoIP Communications", QUEST Research Journal,  Vol. 13, No. 01, pp. 30-36, 2014.  </li>
+        <li style="margin-left:10%"> A. Arain, M. I. Channa, U. A. Khan, "Performance Evaluation of Wireless Sensor Network in presence of Grayhole Attack", QUEST Research Journal, Vol. 13, No. 01, pp. 22-29, 2014.  </li>
+        <li style="margin-left:10%"> F. A. Jokhio, U. A. Khan, I. H. Sadhayo, "Computing Angular Correlation Function Using Message Passing Interface", QUEST Research Journal, vol. 14, no. 1, JAN-JUN, 2015.</li>
+        <li style="margin-left:10%"> A. Ahmed, U. A. Khan, A. Rajpar, "Analysis of Ad-Hoc on Demand Distance Vector Routing Protocol against Node Misbehaviour Attacks in Wireless Sensor Networks", QUEST Research Journal, vol.13, No.2, pp. 67-72, 2015. </li>
+        <li style="margin-left:10%"> U. A. Khan, F. H. Mangi, I. H. Sadhayo, "Analysis of Power Optimization Techniques in Vision Based Environment Monitoring Systems", QUEST Research Journal, vol.13, No.2, pp. 34-42, 2015.  </li>
+        <li style="margin-left:10%"> F. H. Mangi, U. A. Khan, I. H. Sadhayo, R. A. Talani, A. Memon, "An Optimally Accurate Spectral Volume Formulation With Symmetry Preservation", QUEST Research Journal, vol. 14, No. 1, 2015.  </li>
+        <li style="margin-left:10%"> F. Jokhio, U. A. Khan, I. H. Sadhayo, A. A. Soomro, A. U. Jokhio, "Resource Allocation Based on Rates, Load and Throughput for Video Transcoding in a Cloud", QUEST Research Journal, vol.13, No.2, pp. 43-50, 2015.  </li>
+        <li style="margin-left:10%"> J. A. Unar, U. A Khan, A. Arain, I. Memon, N. A. Memon, "A Critical Analysis of Biometrics Modalities", Technical Journal UET Texila (Special Issue), 2015 (Under review).</li>
+        <li style="margin-left:10%"> S. A. Memon, S. R. Hassan, I. H. Sadhayo, U. A. Khan, N. A. Memon, "Comparative Analysis of Video Streaming Performance Using MPET-4 Compression Over Wired Networks", NED University Research Journal - Special Issue on MCCT'14, pp. 9-17, 2014. </li>
+    </ol>
+    <p style="font-size:16px;margin-left:10%"><b><u>Conference Publications</u></b></p>
+    <ol>
+
+        <li style="margin-left:10%"> U. A. Khan, A. R. Fasih, K. Kyamakya, J. C. Chedjou, ?Genetic Algorithm Based Template Optimization for a Vision System Used for Obstacle Detection?, In Proceedings of 15th IEEE conference on Theoretical Engineering (ISTET), pp. 1-5, Lubeck, Germany, 2009.  </li>
+        <li style="margin-left:10%">U. A. Khan, A .R. Fasih, K. Kyamakya, J. C. Chedjou, ?Benchmarking of Traditional Method of Genetic Algorithm with a New Approach and a modified type of 2-Point Crossover (F-Crossover)?, In Proceedings of 15th IEEE conference on Theoretical Engineering (ISTET), pp. 6-10, Lubeck, Germany, 2009. </li>
+        <li style="margin-left:10%"> U. A. Khan, B. Rinner, ?A Reinforcement Learning Framework For Dynamic Power Management of a Portable, Multi-Camera Traffic Monitoring System?, In Proceedings of IEEE conference on Green Computing & Communication (GreenCom), pp. 557-564, Besancon, France, 2012. </li>
+        <li style="margin-left:10%"> U. A. Khan, M. Godec, M. Quaritsch, M. Hennecke, H. Bischof, B. Rinner, ?MobiTrick ? Mobile Traffic Checker?, In Proceedings of 19th Intelligent Transportation Systems (ITS) World Congress, pp. 1-10, Vienna, Austria, 2012.</li>
+        <li style="margin-left:10%"> U. A. Khan, B. Rinner, ?Dynamic Power Management for Portable, Multi-Camera Traffic Monitoring?, In Proceedings of 18th IEEE Real-Time and Embedded Technology and Applications Symposium (RTAS), pp.37-40, Beijing, China, 2012.</li>
+        <li style="margin-left:10%"> U. A. Khan, M. Quaritsch, B. Rinner, ?Design of a Heterogeneous, Energy-Aware, Stereo-Vision Based Sensing Platform for Traffic Surveillance?, In Proceedings of IEEE Ninth Workshop on Intelligent Solutions in Embedded Systems (WISES), pages 47?52, Regensberg, Germany, 2011.</li>
+        <li style="margin-left:10%"> R. Fasih, U. A. Khan, J. C. Chedjou, K. Kyamakya, ?Traffic Light Controller by Reinforcement Learning Method with Local States?, In Proceedings of 15th IEEE conference on Theoretical Engineering (ISTET), pp. 25.28, Lubeck, Germany, 2009.</li>
+        <li style="margin-left:10%"> J.C. Chedjou, K. Kyamakya, U. A. Khan, M. A. Latif, ?Potential contribution of CNN-based solving of stiff ODEs & PDEs to enabling real-time Computational Engineering?, In Proceedings of IEEE 12th International Workshop on Cellular Nanoscale Networks and Their Applications (CNNA), pp. 1-6, Berkeley, USA, 2010. </li>
+        <li style="margin-left:10%">K. Kayamakya, J. C. Chedjou, M. A. Latif, U. A. Khan, ?A Novel Image Processing Approach Combining a ?Coupled Nonlinear Oscillators?-based Paradigm with Cellular Neural Networks for Dynamic Robust Contrast Enhancement?, In Proceedings of IEEE 12th International Workshop on Cellular Nanoscale Networks and Their Applications (CNNA), pp. 7-13, Berkeley, USA, 2010. </li>
+        <li style="margin-left:10%"> J. C. Chedjou, K. Kyamakya, M. A. Latif, U. A. Khan, ?Solving Stiff Ordinary Differential Equations and Partial Differential Equations Using Analog Computing Based on Cellular Neural Networks?, In Proceedings of IEEE 2nd Workshop on Nonlinear Dynamics and Synchronization (INDS), pp. 213-220, Klagenfurt, Austria, 2009.  </li>
+        <li style="margin-left:10%"> Z. A. Shaikh, U. A. Khan, N. A. Memon, "An Autonomic Service Based System Using Machine Learning", International Conference on Modern Communication & Communication Technologies (MCCT), 2014.</li>
+        <li style="margin-left:10%"> S. A. Memon, S. R. Hassan, U. A. Khan, I. H. Sadhayo, N. A. Memon, "Performance Evaluation of Video Streaming Over Wired Networks Using Ns-2 Simulator", International Conference on Modern Communication & Communication Technologies (MCCT), 2014.</li>
+        <li style="margin-left:10%"> M. S. Jamali, P. Kumar, U. A. Khan, "Internet of Things: Architecture & Integration with Other Networks", International Conference on Modern Communication & Communication Technologies (MCCT), 2014.</li>
+        <li style="margin-left:10%"> Memon, N. A. Memon, I. Sadhayo, U. A. Khan, "Security attacks in wireless sensor networks: A Survey", Fourth International Conference on Computer and Emerging Technologies (ICCET), 2014.</li>
+        <li style="margin-left:10%"> Z. A. Shaikh, U. A. Khan, N. A. Memon, A. W. Memon, M. A. Rajput, "Automatic Number Plate Detection and Recognition Systems (ANPDR)",5th International Workshop on Combination of Intelligent Methods & Applications, Vietri Sul Mare, Italy, 2015 (accepted) .</li>
+    </ol>
+    <h2 style="margin-left:10%">Dr. Fareed Ahmed Jokhio</h2>
+    <p style="font-size:16px;margin-left:10%"><b><u>Book Chapters</u></b></p>
+    <ol>
+        <li style="margin-left:10%">Jokhio, Fareed and Ashraf, Adnan and Deneke, Tewodros and Lafond, Sebastien and Porres, Ivan and Lilius, Johan, Proactive Virtual Machine Allocation for Video Transcoding in the Cloud. In: Developing Cloud Software: Algorithms, Applications, and Tools. Porres, Ivan and Mikkonen, Tommi and Ashraf, Adnan (Eds.). TUCS General Publication TUCS, 2013 </li>
+    </ol>
+    <p style="font-size:16px;margin-left:10%"><b><u>Journal Publications</u></b></p>
+    <ol>
+        <li style="margin-left:10%"> Khan, Umair Ali and Jokhio, Fareed Ahmed and Sadhayo, Intesab Hussain, Reinforcement Learning for DPM of Embedded Visual Sensor Nodes. In: Mehran University Research Journal of Engineering & Technology. 2014.</li>
+        <li style="margin-left:10%"> Intesab Hussain Sadhayo, Fareed Ahmed Jokhio, Umair Ali Khan, Pardeep Kumar, Nisar Ahmed Memon, PREVENTING SPIT WITH NAIVE BAYES IN VOIP COMMUNICATION, In: Quaid-e-Awam University Research Journal Volume 13 , No. 1, JAN-JUNE 2014 .</li>
+        <li style="margin-left:10%"> IA KOREJO+, ZUA KHUHRO, FA JOKHIO, N CHANNA, HA NIZAMANI, An Adaptive Crossover Operator for Genetic Algorithms to Solve the Optimization Problems, SINDH UNIVERSITY RESEARCH JOURNAL 45 (02), 333 ? 339.</li>
+        <li style="margin-left:10%"> IA KOREJO, ZUA KHUHRO+, FA JOKHIO, FN MEMON, Genetic Algorithm Using an Adaptive Mutation Operator for Numerical Optimization Functions, In: SINDH UNIVERSITY RESEARCH JOURNAL ( SCIENCE SERIES) 45 (1), 41 - 48.</li>
+        <li style="margin-left:10%"> FA JOKHIO, S VIGHIO, IA KOREJO, Parallel Image Processing With Multi-Core Systems, IN: SINDH UNIVERSITY RESEARCH JOURNAL ( SCIENCE SERIES) 44 (3), 3 85 ? 390.</li>
+        <li style="margin-left:10%"> FA JOKHIO, S VIGHIO, IA KOREJO, Parallel Processing of Multimedia Algorithms, In: SINDH UNIVERSITY RESEARCH JOURNAL ( SCIENCE SERIES) 44 (3), 361 ? 366.</li>
+        <li style="margin-left:10%"> FA Jokhio, UA Khan, IH Sadhayo , COMPUTING ANGULAR CORRELATION FUNCTION USING MESSAGE PASSING INTERFACE,In: Quaid-e-Awam University Research Journal, Volume 14 , No. 1, JAN-JUN 2015,.</li>
+        <li style="margin-left:10%"> F Jokhio, UA Khan, IH Sadhayo, AA Soomro, AU Jokhio, RESOURCE ALLOCATION BASED ON RATES, LOAD AND THROUGHPUT FOR VIDEO TRANSCODING IN A CLOUD,In: Quaid-e-Awam University Research Journal, Volume 13 , No. 2, JUL-DEC 2014,.</li>
+        <li style="margin-left:10%"> M. Nawaz Lakhmir, Ayaz Ahmed Qureshi, M. Ibrahim Channa, Fareed Ahmed Jokhio, and Shahzaman Nizamani., Performance Evaluation of Link State Routing Protocol in an Enterprise Network, Bahria University Journal of Information & Communication Technologies Vol. 8, Issue 1, April 2015.</li>
+        <li style="margin-left:10%"> S. Vighio, A.P. RAVN, F.A. Jokhio, Multi-party Agreement in Web Services Business Activity Protocol, Sindh University Journal (Sci, Ser,) Vol. 44 (2AB) 131-136(2012).</li>
+    </ol>
+    <p style="font-size:16px;margin-left:10%"><b><u>Conference Publications</u></b></p>
+    <ol>
+        <li style="margin-left:10%"> Byholm, Benjamin and Jokhio, Fareed and Ashraf, Adnan and Lafond, Sébastien and Lilius, Johan and Porres, Ivan, Cost-Efficient, Utility-Based Caching of Expensive Computations in the Cloud. In: 23rd Euromicro International Conference on Parallel, Distributed, and Network-Based Processing. Daneshtalab, Masoud and Aldinucci, Marco and Leppänen, Ville and Lilius, Johan and Brorsson, Mats (Eds.). Euromicro International Conference on Parallel, Distributed and Network-Based Computing IEEE Computer Society Conference Publishing Services, 2015.</li>
+        <li style="margin-left:10%"> Ashraf, Adnan and Jokhio, Fareed and Deneke, Tewodros and Lafond, Sebastien and Porres, Ivan and Lilius, Johan, Stream-Based Admission Control and Scheduling for Video Transcoding in Cloud Computing. In: 13th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGrid). Balaji, Pavan and Epema, Dick and Fahringer, Thomas (Eds.). IEEE Computer Society, 2013</li>
+        <li style="margin-left:10%"> Jokhio, Fareed Ahmed and Ashraf, Adnan and Lafond, Sébastien and Porres, Ivan and Lilius, Johan, Prediction-Based Dynamic Resource Allocation for Video Transcoding in Cloud Computing. In: Proceedings of the 21st International Euromicro Conference on Parallel, Distributed and Network-based Processing, Belfast, UK 27 February - 1 March 2013. Kilpatrick, Peter and Milligan, Peter and Stotzka, Rainer (Eds.). IEEE Computer society, 2013</li>
+        <li style="margin-left:10%"> Jokhio, Fareed and Ashraf, Adnan and Lafond, Sébastien and Lilius, Johan, A Computation and Storage Trade-Off Strategy for Cost-Efficient Video Transcoding in the Cloud. In: 39th EUROMICRO Conference on Software Engineering and Advanced Applications.Demirors, Onur and Turetken, Oktay (Eds.). IEEE Computer Society, 2013</li>
+        <li style="margin-left:10%"> Jokhio, Fareed Ahmed and Deneke, Tewodros and Lafond, Sébastien and Lilius, Johan, Bit Rate Reduction Video Transcoding with Distributed Computing. In: Proceedings of the 20th Euromicro International Conference on Parallel, Distributed and Network-Based Computing. Rainer, Stotzka and Michael, Schiffers and Yiannis, Cotronis (Eds.). IEEE Computer society, 2012</li>
+        <li style="margin-left:10%"> Dahlin, Andreas and Jokhio, Fareed and Gorin, Jérôme and Lilius, Johan and Raulet, Mickaël, Interfacing and Scheduling Legacy Code within the Canals Framework. In: Proceedings of the 2011 Conference on Design and Architectures for Signal and Image Processing (DASIP). Morawiec, Adam and Hinderscheit, Jinnie and Ghenassia, Orna (Eds.). IEEE, 2011</li>
+        <li style="margin-left:10%"> Ersfolk, Johan and Roquier, Ghislain and Jokhio, Fareed and Lilius, Johan and Mattavelli, Marco, Scheduling of Dynamic Dataflow Programs with Model Checking. In: 2011 IEEE Workshop on Signal Processing Systems (SiPS). Mansour, Mohammad and Evans, Brian (Eds.). IEEE, 2011</li>
+        <li style="margin-left:10%"> Jokhio, Fareed Ahmed and Deneke, Tewodros and Lafond, Sébastien and Lilius, Johan, Analysis of Video Segmentation for Spatial Resolution Reduction Video Transcoding. In: Proceedings of the International Symposium on Intelligent Signal Processing and Communication Systems (ISPACS 2011). Sa-ngiamsak, Chiranut and Okada, Minoru and Adiono, Trion and Chalidabhongse, Thanarat (Eds.). IEEE, 2011</li>
+        <li style="margin-left:10%"> Jokhio, Fareed and Deneke, Tewodros and Lafond, Sébastien and Lilius, Johan, Analysis of Video Transcoding on Multi-Core Platform. In: Fourth Swedish Workshop on Multi-Core Computing MCC-2011. Kessler, Christoph (Eds.). ACM, 2011</li>
+    </ol>
+    <h2 style="margin-left:10%">Engr. Muhammad Sulleman Memon</h2>
+    <ol>
+        <li style="margin-left:10%"> Architectural Model for Optimizing Bandwidth Reservation in Multi Hop Ad Hoc Networks to improve QoS, MUET Research Journal of Engineering and Technology Vol. 26, No.1, pp.71-78, January-2007, Pakistan</li>
+        <li style="margin-left:10%"> Middleware Design of Bandwidth Constrained QoS Model for Multi Hop Ad Hoc Networks, WSEAS Transactions on communications, Issue 2, Volume 7, pp 123-132, February 2008, Greece.</li>
+        <li style="margin-left:10%"> Premeditated Policies and Implementing Algorithm to Resource Reservation for Prioritized QoS Enable Traffic in MANETs, Journal of Theoretical and Applied Information Technology, Vol 5. No3. March-2009, Pakistan</li>
+        <li style="margin-left:10%"> A Review For Uniqueness And Variations In Throughput of MANET Routing Protocol Due To Performance Metrics, Characteristics And Simulation Environments, WSEAS Transactions on communications, Issue 5, Volume 7, pp 123-132, May 2008.Pp:459-468, Greece.</li>
+        <li style="margin-left:10%"> A Framework for QoS Management and Contract Enforced Services in MANETs for Prioritized Traffic Environment, IJCSNS International Journal of Computer Science and Network Security, Vol.9 No.4, April 2009, pp: 192-198, Korea</li>
+        <li style="margin-left:10%"> Resource Reservation Pricing Pitch for Prioritized Traffic in MANETs and Statistical Verification for its Hypothetical Measurements, International Journal of Computer Theory and Engineering, Volume 1 Number 4 October 2009, pp: 292-298 ISSN: 1793-821X (Online Version); 1793-8201 (Print Version), Singapore.</li>
+        <li style="margin-left:10%"> Throughput Evaluation for QoS Measurement in MANETs, Australian Journal of Basic and Applied Sciences, 4(5): 914-921, 2010ISSN 1991-8178©, 2010, INSInet Publication, Australia.</li>
+        <li style="margin-left:10%"> Validation of Model to Optimize QoS in Small MANETs, International Journal of Innovation, Management and Technology vol. 3, no. 6, pp. 651-654, 2012.</li>
+        <li style="margin-left:10%"> Towards An Agent-Based Inference Rule Engine Model for Knowledge Classification In Cyberspace, Sindh Univ. Res. Jour. (Sci. Ser.) Vol. 41 (2) 99-104 (2009)</li>
+        <li style="margin-left:10%"> Lightweight Directory Access Protocol using Transport Layer Security Mechanism  MUET Jamshoro research Journal , Volume 23, Number 1, Jan 2004, pp: 61-70</li>
+        <li style="margin-left:10%"> Low bit rate speech coding ? A comparative Analysis , QUEST Nawabshah research journal , Volume 4 Number 1&2 Jan-Dec,       pp:53-58</li>
+        <li style="margin-left:10%"> Simall Traffic ? An Agent Based Traffic Management Systems Analyzer?, Sindh Univ. Res. Jour. (Sci. Ser.) Vol.42 (2) 01-06 (2010), pp:1-2</li>
+        <li style="margin-left:10%"> Transforming Win XP Manifestation and Feat" IJET, Singapore, Vol. 3, No.2, April 2011, pp: 130-136</li>
+        <li style="margin-left:10%"> Messaging Information System (mIS) for Mobile Clients about Location Awareness in PAKISTAN ?, Sindh Univ. Res. Jour. (Sci. Ser.) Vol.43, (1-A), June 2011, pp: 95-100</li>
+        <li style="margin-left:10%"> Knowledge Based Expert System for Symptomatic Automated Healthcare?, Sindh Univ. Res. Jour. (Sci. Ser.) Vol.43, (1-A), June 2011, pp: 77-82.</li>
+        <li style="margin-left:10%"> RFID based Toll Deduction System?, I.J of IT & CS, April 2012, Hong Kong, pp: 40-46</li>
+        <li style="margin-left:10%"> Merging Quality of Experience Networks with Autonomic Networks? accepted for SURJ (Sci. ?Ser.), Vol. 44(1-A), June 2012, pp: 69-74</li>
+        <li style="margin-left:10%"> Trouble shoot hardware compatibilities of diagnostic card with solution techniques for mother board repair?, Elixir Comp. Sci. & Engg. 52 (2012), pp: 11172-11175.</li>
+        <li style="margin-left:10%"> ?Proposal for wireless controlled threat monitoring and tangling vehicles? Int. Jrl. of Computer & Communication Engineering Vol: 2, No. 5, Sept. 2013 Page no. 580-583, Singapore.</li>
+        <li style="margin-left:10%"> Bandwidth Reservation Based QoS Model for Multi Hop Ad Hoc Networks, Proceedings of 6th WSEAS International conference on Applied Computer Science, Hangzhou, China, pp104-109, April 2007.</li>
+        <li style="margin-left:10%"> A Review of Uniqueness and Variations in Throughput due to Performance Parameters of Simulators on MANET Routing Protocols, 7th International conference on Electronics, Hardware, Wireless and Optical Communications, Cambridge, UK pp 202-208, February 2008.</li>
+        <li style="margin-left:10%"> Premeditated Policies to Resource Reservation for Prioritized Traffic in Multi Hop Ad Hoc Networks, Presented at IEEE NCTT-MCP 2008, On 16-18 August Putrajaya Malaysia.</li>
+        <li style="margin-left:10%"> A New Algorithm to Resource Reservation for Prioritized Traffic in MANETs, Proceedings ICFN 2009, pp-43 to 48, IACSIT Conferences Bangkok, Thailand</li>
+        <li style="margin-left:10%"> Pricing Pitch To Optimize QoS in MANETs and Statistical Verification for its Hypothetical Measurements, ICEEA, June 5-8 2009, Manila Philippines pp: 385- 390</li>
+        <li style="margin-left:10%"> Enhancing Win XP Appearance and Performance, 2nd ICCAE 2010, Feb 26-28, Singapore, PP:  654-660</li>
+        <li style="margin-left:10%"> Validation of Model to optimize QoS in Small MANETs, pp: V3 208-213, 2nd International Conference on Information and Multimedia Technology (ICIMT 2010), December 28-30, 2010, Hong Kong, China.</li>
+        <li style="margin-left:10%"> Location Based Mobile mIS in PAKISTAN, ICCET 2011, April 22-23, SALU Khairpur,     pp: 293-300.</li>
+        <li style="margin-left:10%"> Proposal to Merge of Quality of Experience with Autonomic Networks, ICCET 2012, April    13-15.</li>
+    </ol>
+    <h2 style="margin-left:10%">Dr. Fiza Abbas</h2>
+    <p style="font-size:16px;margin-left:10%"><b><u>Journal Publications</u></b></p>
+    <ol>
+        <li style="margin-left:10%"> Fizza Abbas, Ubaidullah and Heekuck Oh, ?PRISM: PRivacy-aware Interest Sharing and Matching in Mobile Social Networks,? IEEE Access, vol. 4, pp. 2594-2603, 2016.  (ISI Index, IF=3.244).</li>
+        <li style="margin-left:10%"> Fizza Abbas, Ubaidullah and Heekuck Oh, ?PAISP: Priority Aware Interest Similarity Protocol for Proximity Based Mobile Social Network,? Wireless Personal Communications, pp. 1-17, 2016, (ISI index, IF=0.951).</li>
+        <li style="margin-left:10%"> Fizza Abbas and Heekuck Oh, ?A step Towards User Privacy while Using Location Based Services,? Journal of Information Processing Systems (JIPS), vol. 10, no. 4, pp. 618-627, Dec. 2014. (ISI Index).</li>
+        <li style="margin-left:10%"> Ubaidullah, Fizza Abbas and Heekuck Oh, ?A Hierarchical Privacy Preserving Pseudonymous Authentication Protocol for VANET,? IEEE Access, vol. 4, pp. 7770-7784, 2016, (ISI Index, IF=3.244).</li>
+        <li style="margin-left:10%"> Ubaidullah Rajput, Fizza Abbas and Heekuck Oh, ?A Hybrid Approach for Efficient Privacy Preserving Authentication in VANET,? IEEE Access, pp. 1-17, 2017, (ISI Index, IF=3.244).</li>
+        <li style="margin-left:10%"> Ubaidullah Rajput Fizza Abbas and Heekuck Oh, ?A Solution towards Eliminating Transaction Malleability in Bitcoin,? Journal of Information Processing Systems (JIPS), pp. 1-13, 2017, (ISI Index).</li>
+        <li style="margin-left:10%"> Sajida Parveen, Nadeem Naeem Bhatti, Fizza Abbas, ?Analysis of JPEG and Wavlet compression Techniques using Tomographic Images,? Quest RJ, 2012.
+    </ol>
+    <p style="font-size:16px;margin-left:10%"><b><u>Conference Publications</u></b></p>
+    <ol>
+        <li style="margin-left:10%">  Fizza Abbas, Ubaidullah Rajput, Hasoo Eun, Dongsoo Ha, Taeseon Moon, Wenhui Jin, Hyunjun Back, Honglae Jo, Sul Bang, Seung-ho Ryu, and Heekuck Oh, "Trust Evaluation Based Friend Recommendation in Proximity Based Mobile Social Network, 5th International Conference on Computational Social Network (CSONET), Lecture Notes in Computer Science (LNCS), vol. 9795, pp. 158-169, Aug. 2016.</li>
+        <li style="margin-left:10%"> Fizza Abbas, Ubaidullah Rajput, Jian Wang, Hasoo Eun, and Heekuck Oh, ?Say Hello Again: Privacy Preserving Matchmaking Using Cloud in Encounter Based Mobile Social Networks,? IEEE/ACM CCGrid, pp. 453-457, May 2016.</li>
+        <li style="margin-left:10%">  Ubaidullah Rajput, Fizza Abbas, Jian Wang, Hasoo Eun, and Heekuck Oh, ?CACPPA: A Cloud-Assisted Conditional Privacy Preserving Authentication Protocol for VANET,? IEEE/ACM CCGrid , 435-442, May 2016.</li>
+        <li style="margin-left:10%">  Ubaidullah Rajput, Fizza Abbas, Hasoo Eun, Rasheed Hussain and Heekuck Oh, "A Two Level Privacy Preserving Psuedonymous Authentication Protocol for VANET," IEEE WiMob 2015, pp. 643-650, Oct. 2015.</li>
+        <li style="margin-left:10%">  Chulhyun Kang, Fizza Abbas, and Heekuck Oh, "Protection Scheme for IoT Devices using Introspection," IEEE 6th International Conference on Network of the Future (NoF 2015), pp. 1-5, Sep. 2015.</li>
+        <li style="margin-left:10%"> Fizza Abbas, Ubaidullah, Rasheed Hussain, Hasoo Eun, and Heekuck Oh, "A Trustless Broker-based Protocol to Discover Friends in Proximity-based Mobile Social Networks," International Workshop on Information Security and Applications (WISA), Lecture Notes in Computer Science (LNCS), vol. 8909, Springer-Verlag, pp. 216?227, Jan. 2015.</li>
+        <li style="margin-left:10%">  Ubaidullah, Fizza Abbas, Rasheed Hussain, Hasoo Eun, and Heekuck Oh, "A Simple Yet Efficient Approach to Combat Transaction Malleability in Bitcoin," International Workshop on Information Security and Applications (WISA), Lecture Notes in Computer Science (LNCS), vol. 8909, Springer-Verlag, pp. 27?37, Jan. 2015.</li>
+        <li style="margin-left:10%">  Rasheed Hussain, Fizza Abbas, Junggab Son, Sanjin Kim, and Heekuck Oh, "Using Public Buses as Mobile Gateways in Vehicular Clouds," IEEE International Conference on Consumer Electronics, pp. 177-178, Jan. 2014.</li>
+        <li style="margin-left:10%">  Fizza Abbas, Rasheed Hussain, Junggab Son, and Heekuck Oh, ?Privacy Preserving Cloud-based Computing Platform (PPCCP) for using Location Based Services,? IEEE/ACM UCC, pp. 60-66, Dec. 2013.</li>
+        <li style="margin-left:10%">  Fizza Abbas, Rasheed Hussain, Junggab Son, Hasoo Eun and Heekuck Oh, ?Towards Achieving Anonymity in LBS: A Cloud Based Untrusted Middleware,? IEEE CloudCom, pp. 262-265, Dec. 2013.</li>
+        <li style="margin-left:10%">  Rasheed Hussain, Fizza Abbas, Junggab Son, Donghyun Kim, Sangjin Kim and Heekuck Oh, ?Vehicle Witnesses as a Service: Leveraging Vehicles as ?Witnesses on the Road in VANET Clouds,? IEEE CloudCom, pp. 439-444, Dec. 2013.</li>
+        <li style="margin-left:10%">  Rasheed Hussain, Fizza Abbas, Junggab Son, Hasoo Eun, and Heekuck Oh, "Privacy-Aware Route Tracing and Revocation Games in VANET-based Clouds," IEEE WiMob, pp. 747-752, Oct. 2013.</li>
+        <li style="margin-left:10%">  Fizza Abbas, Rasheed Hussain, Junggab Son, and Heekuck Oh, ?A Scheme for Using Location Based Services Anonymously in Mobile Cloud Computing," International Conference on Computer Applications and Information Processing Technology (CAIPT), pp. 99-102, Jun. 2013.</li>
+        <li style="margin-left:10%">  Rasheed Hussain, Fizza Abbas, Junggab Son, and Heekuck Oh, "TiaaS: Secure Cloud-assisted Traffic Information Dissemination in Vehicular Ad hoc Networks,? IEEE/ACM CCGrid, pp. 178-179, May 2013.</li>
+    </ol>
+    <p style="font-size:16px;margin-left:10%"><b><u>Patents</u></b></p>
+    <ol>
+        <li style="margin-left:10%">  Fizza Abbas, and Heekuck Oh, (Cloud base Computing Platform System for Privacy Preserving Method for Providing Location based Services), 2016. [Registered Patent Number 10-1648641].</li>
+        <li style="margin-left:10%">  Fizza Abbas, and Heekuck Oh, (A Trustless Broker based Protocol to Discover Friends in Proximity Based Mobile Social Networks), 2017. [Register Patent Number 10-1760600].</li>
+    </ol>
+    <h2 style="margin-left:10%">Engr. Iftekhar Ahmed Koondhar</h2>
+    <ol>
+        <li style="margin-left:10%"> P. Kumar,  I. A. Koondhar, A. H. Jalbani, A. S. Khan,  & M. A. Bhutto ?A Study Related to Protocol  and Ports  Usage for the ISA Server?,  published in the  Quaid-e-Awam  University  of Engineering,  Science & Technology  Research  Journal, Volume 11, Number  2, 2012</li>
+        <li style="margin-left:10%"> P. Kumar,  A. H. Jalbani, M. I. Channa, A.A. Soomro & I. A. Koondhar, ?Design,  Challenges and Future  Research  Aspects of MAC Protocols  for Wireless Sensor  Networks?,  published  in the  Quaid-e-Awam  University  of Engineering,  Science & Technology  Research  Journal, Volume 11, Number  2, 2012.</li>
+    </ol>
+    <h2 style="margin-left:10%">Dr. Sajida Parveen</h2>
+    <p style="font-size:16px;margin-left:10%"><b><u>Journal Publications</u></b></p>
+    <ol>
+        <li style="margin-left:10%"> Sajida Parveen, Nadeem Naeem, Jherna Devi (2017) ?Review on local binary pattern (LBP) texture descriptor and its variants?, International Journal of Advanced Research 5(5), 708-717.</li>
+        <li style="margin-left:10%"> Quratulain Soomro, Sajida Parveen, Nadeem Naeem (2017) ?Information and communication technologies accessibility issues faced by visual impaired persons?, International Journal Advanced Research 5(5), 718-726.</li>
+        <li style="margin-left:10%">  Parveen, S., Ahmad, S. M. S., Abbas, N. H., Adnan, W. A. W., Hanafi, M., Naeem, N. (2016). Face Liveness Detection Using Dynamic Local Ternary Pattern (DLTP). Computers, 5(2), 10.</li>
+        <li style="margin-left:10%">  Nidaa Hasan Abbas, Ahmad, S. M. S., Sajida Parveen, (2017) ?A study on multipurpose watermarking techniques for image?, Science International 29(2), 329-336.</li>
+        <li style="margin-left:10%">  Naeem, N., Parveen, S., Ismail, A. (2016). Planar single loop square spiral ring resonator for near field nano layer detection. Science International, 28(2), 1121-1124.</li>
+        <li style="margin-left:10%">  Parveen, S., Ahmed, S., Mumtazah, S., Abbas, N. H., Naeem, N., & Hanafi, M. (2016). Texture analysis using local ternary pattern for face anti-spoofing. Science international, 28(2), 965-971.</li>
+        <li style="margin-left:10%">  Sajida Parveen, Sharifah Mumtazah, Nadeem Naeem, Intesab Hussain, Pardeep Kumar, (2016), ?Complete local binary pattern and spatial structure of live faces?, Science International, 28(6), 5219-5222.</li>
+        <li style="margin-left:10%">  Sajida Parveen, Sharifah Mumtazah Syed Ahmad, Marsyita Hanafi, Wan azizun wan adnan, (2015) ?Face antispoofing methods?, Current Science 108(8), 1491-1500.</li>
+        <li style="margin-left:10%"> Nidaa Hasan Abbas, Sharifah Mumtazah Syed Ahmad, Wan azizun wan adnan, Abed Rahman bin ramli, Sajida Parveen, (2015), ?DWT Lifting wavelet transform based robust watermarking for color image?, International review on computers and software 10(11), 1127-1133.</li>
+        <li style="margin-left:10%">  Sajida Parveen, Nadeem Naeem bhatti, Fizza Abbas alvi, (2012) ?Analysis of JPEG and Wavelet Compression Techniques Using Tomographic Images?, Quaid-e-Awam University Research journal 11(1), 10-16.</li>
+    </ol>
+    <p style="font-size:16px;margin-left:10%"><b><u>Conference Publications</u></b></p>
+    <ol>
+        <li style="margin-left:10%">  Abbas, N. H., Ahmad, S. M. S., Ramli, A. R. B., & Parveen, S. (2016, May). A multi-purpose watermarking scheme based on hybrid of lifting wavelet transform and Arnold transform. In Multidisciplinary in IT and Communication Science and Applications (AIC-MITCSA), Al-Sadeq International Conference on (pp. 1-6). IEEE.</li>
+        <li style="margin-left:10%">  Sajida Parveen, Sharifah Mumtazah Syed Ahmad, Marsyita Hanafi, Wan Azizun Wan Adnan, Nidaa Hasan Abbas ?The Design and Compilation of a Facial Spoof Database on Various Textures", Fourth International Conference on Artificial Intelligence and Applications in Engineering and Technology, IEEE proceedings -pp 182- 186. 2014</li>
+    </ol>
+    <h2 style="margin-left:10%">Dr. Ubaidullah Rajput</h2>
+    <p style="font-size:16px;margin-left:10%"><b><u>Journal Publications</u></b></p>
+    <ol>
+        <li style="margin-left:10%">Ubaidullah Rajput, Fizza Abbas, Jian Wang, Hasoo Eun, and Heekuck Oh, ?CACPPA: A Cloud-Assisted Conditional Privacy Preserving Authentication Protocol for VANET,? IEEE/ACM CCGrid, 435-442, May 2016.</li>
+        <li style="margin-left:10%"> Fizza Abbas, Ubaidullah Rajput, Jian Wang, Hasoo Eun, and Heekuck Oh, ?Say Hello Again: Privacy Preserving Matchmaking Using Cloud in Encounter Based Mobile Social Networks,? IEEE/ACM CCGrid, pp. 453-457, May 2016.</li>
+        <li style="margin-left:10%"> Fizza Abbas, Ubaidullah Rajput, Hasoo Eun, Dongsoo Ha, Taeseon Moon, Wenhui Jin, Hyunjun Back, Honglae Jo, Sul Bang, Seung-ho Ryu, and Heekuck Oh, "Trust Evaluation Based Friend Recommendation in Proximity Based Mobile Social Network, 5th International Conference on Computational Social Network (CSONET), Lecture Notes in Computer Science (LNCS), vol. 9795, pp. 158-169, Aug. 2016.</li>
+        <li style="margin-left:10%"> Ubaidullah Rajput, Fizza Abbas, Hasoo Eun, Rasheed Hussain and Heekuck Oh, "A Two Level Privacy Preserving Pseudonymous Authentication Protocol for VANET," IEEE WiMob 2015, pp. 643-650, Oct. 2015.</li>
+        <li style="margin-left:10%"> Lee, Kanghyo, Dong Ha Kim, Ubaidullah Rajput and Heekuck Oh, ?On Security and Privacy issues of Fog Computing Supported Internet of Things environment,? IEEE 6th International Conference on the Network of the Future (NOF), pp. 1-3, 2015.</li>
+        <li style="margin-left:10%">Fizza Abbas, Ubaidullah Rajput, Rasheed Hussain, Hasoo Eun, and Heekuck Oh, "A Trustless Broker-based Protocol to Discover Friends in Proximity-based Mobile Social Networks," International Workshop on Information Security and Applications (WISA), Lecture Notes in Computer Science (LNCS), vol. 8909, Springer-Verlag, pp. 216?227, Jan. 2015.</li>
+        <li style="margin-left:10%"> Ubaidullah Rajput, Fizza Abbas, Rasheed Hussain, Hasoo Eun, and Heekuck Oh, "A Simple Yet Efficient Approach to Combat Transaction Malleability in Bitcoin," International Workshop on Information Security and Applications (WISA), Lecture Notes in Computer Science (LNCS), vol. 8909, Springer-Verlag, pp. 27?37, Jan. 2015.</li>
+    </ol>
+    <p style="font-size:16px;margin-left:10%"><b><u>Patents</u></b></p>
+    <ol>
+        <li style="margin-left:10%"> Ubaidullah Rajput, and Heekuck Oh, (A simple yet efficient approach to combat transaction malleability in Bitcoin) 2016. [Registered Patent Number 10-1648641]</li>
+        <li style="margin-left:10%"> Ubaidullah Rajput, and Heekuck Oh,  (A Two Level Privacy Preserving Pseudonymous Authentication Protocol for VANET), [Registered Patent Number 10-1749449].</li>
+    </ol>
+    <h2 style="margin-left:10%">Engr. Anees Ahmed Soomro</h2>
+    <p style="font-size:16px;margin-left:10%"><b><u>Journal Publications</u></b></p>
+    <ol>
+        <li style="margin-left:10%"> Fareed Jokhio, Umair Ali Khan, Intesab Hussain Sadhayo, Anees Ahmed Soomro, Azhar Uddin jokhio, ?Resource Allocation Based on Rates, Load and Throughput for Video Transcoding in a Cloud?, , published in the Quaid-e-Awam University of Engineering, Science & Technology Research Journal, Volume 13, Number 2, 2014.</li>
+        <li style="margin-left:10%"> Anees A. Soomro, Akhtar Hussain, Pardeep Kumar, M. Ibrahim Channa & Nisar A. Memon, "An Intelligent Assessment Tool for IT Professionals", published in the Quaid-e-Awam University of Engineering, Science & Technology Research Journal, Volume 11, Number 1, 2012.</li>
+        <li style="margin-left:10%"> Anees  Ahmed Soomro,  Akhtar  Hussain, M. Ibraheem Channa, Nisar A. Memon ?Predicting Karachi Stock Exchange shares using Dynamic Bayesian Network ?,  Sindh University Research Journal (SURJ). (Vol. 44 No. 4, pp. 195-200, 2013).</li>
+        <li style="margin-left:10%"> Pardeep Kumar, Akhtar H. Jalbani, M. Ibrahim Channa, Anees A. Soomro & Iftikhar A. Koondhar, "Design, Challenges and Future Research Aspects of MAC Protocols for Wireless Sensor Networks", published in the Quaid-e-Awam University of Engineering, Science & Technology Research Journal, Volume 11, Number 2, 2012.</li>
+        <li style="margin-left:10%"> Anees Ahmed Soomro, Nisar Ahmed Memon, Zahid Hussain, Akhtar Hussain Jalbani, ?Implementation and Evaluation of the Intelligent System to predict Karachi Stock Exchange (KSE) Shares using Bayesian Networks?, in Sindh Univ. Res. Jour(2012) (Vol. 44 No. 2-AB, pp. 111-118, 2012).</li>
+        <li style="margin-left:10%"> Akhtar H. Jalbani, Pardeep Kumar, M. Ibrahim Channa, Anees A. Soomro & Chee Wai Mak, "Coin Recognition based on Heuristic Segmentation and Image Fusion via Bayesian Approach", published in the Quaid-e-Awam University of Engineering, Science & Technology Research Journal, Volume 11, Number 2, 2012.</li>
+        <li style="margin-left:10%"> Anees Ahmed Soomro, Nisar Ahmed Memon, Muhammad Sulleman Memon, ?Knowledg Based Expert System for Symptomatic Automated Health care? in Sindh Univ. Res. Jour. (Sci. Ser.) Vol.43 (1-A) 77-82(2011).</li>
+        <li style="margin-left:10%"> M. S. Memon, S. Memon, and A. A. Soomro ?Messaging Information System(mIS) for Mobile Clients and Location Awareness in Pakistan? in Sindh Univ. Res. Jour. (Sci. Ser.) Vol.43 (1-A) 95-100(2011).</li>
+    </ol>
+    <p style="font-size:16px;margin-left:10%"><b><u>Conference Publications</u></b></p>
+    <ol>
+        <li style="margin-left:10%"> Anees Ahmed Soomro, Nisar Ahmed Memon, Zahid Hussain, Akhtar Hussain Jalbani, ?Implementation and Evaluation of the Computerized Karachi Stock Exchange Shares? Prediction Model?, ICCET 2012, SALU Khairpur.</li>
+        <li style="margin-left:10%">Anees Ahmed Soomro, Arbab ali Samejo, Nisar Ahmed Memon, Muhammad Sulleman Memon, ?E-Health Solution System?, ICCET 2011, SALU Khairpur.</li>
+        <li style="margin-left:10%"> Nisar Ahmed Memon, Anees Ahmed Soomro, Asad Ali,?Affine transform resilient robust watermarking method based on image normalization and salient feature points? , ICCET 2011, SALU Khairpur.</li>
+        <li style="margin-left:10%"> Muhammad Sulleman Memon, Shahniz Memon, Tayyaba Aijaz, Anees Ahmed Soomro, ?Location Based Mobile mIS in PAKISTAN?, ICCET 2011, SALU Khairpur.</li>
+    </ol>
+    <h2 style="margin-left:10%">Dr. Syed Raheel Hassan</h2>
+    <ol>
+        <li style="margin-left:10%"> Waqas Ali Sahito, Hashim Iqbal Chunpir, Zahid Hussain, Syed Raheel Hassan, Frederik Schulte, "Significance of Line Length for Tablet PC Users" in The 4th International Conference of Design, User Experience, and Usability: Users and Interactions (DUXU), Held as Part of (HCI), ISBN:978-3-319-20898-5, Springer, Pages 587-596, Los Angeles, USA from 2-7 August 2015. DOI: 10.1007/978-3-319-20898-5_56</li>
+        <li style="margin-left:10%">Shafquat Ali Memon, Syed Raheel Hassan, Intesab Hussain Sadhayo, Umair Ali Khan, Nisar Ahmed Memon, "Comparative Analysis of Video Streaming Performance Using MPEG-4 Compression Over Wired Networks" in NED University Journal of Research - Special Issue on MCCT'14, 2014. ISSN:1023-3873 Pages 9-17</li>
+        <li style="margin-left:10%"> Shafquat Ali Memon, Syed Raheel Hassan and Nisar Ahmed Memon "Evaluation of Video Streaming Performance over Peer-to-Peer Network" International Conference on Collaboration Technologies and Systems (CTS 2014), IEEE, ISBN: 978-1-4799-5158- 1, Pages: 413- 420, Minnesota, USA, 19-23rd, May 2014. DOI: 10.1109/CTS.2014.6867597</li>
+        <li style="margin-left:10%"> Shafquat Ali Memon, Syed Raheel Hassan, Intesab Hussain Sadhayo, Umair Ali Khan and Nisar Ahmed Memon "Performance Evaluation of Video Streaming Over Wired Networks Using NS-2 Simulator" 1st International Conference on Modern Communication & Computing Technologies (MCCT 2014), Pakistan.</li>
+        <li style="margin-left:10%"> Umair Ali Khan, Syed Raheel Hassan, Intesab Hussain Sadhayo, Zahid Hussain Abro, Real-Time Drivers Vigilance Detection System, QUEST RJ, Volume 12 , No. 1, Pages 35-44, JAN-JUNE. 2013</li>
+        <li style="margin-left:10%"> Raheel Hassan Syed, Maxime Syrame, and Julien Bourgeois. Protecting Grids from Cross-Domain Attacks Using Security Alert Sharing Mechanism. Journal of Future Generation Computer System (Elsevier), 29(2):536--547, 2013. Impact Factor: 1.978</li>
+        <li style="margin-left:10%"> Raheel Hassan Syed, Jasmina Pazardzievska, and Julien Bourgeois. Fast Attack Detection using Correlation and Summarizing of Security Alerts in Grid Computing Networks. Journal of Supercomputing (Springer), 62(2):804--827, 2012. Impact Factor: 0.917</li>
+        <li style="margin-left:10%"> Raheel Hassan Syed, Julien Bourgeois, Vaidy Sunderam and Li Xiong. Detection of Distributed Attacks in Hybrid & Public Cloud Networks. In SKG2012, Int. Conference on Semantics, Knowledge and Grids (SKG), IEEE, Print ISBN: 978-1-4673-2561-5, Beijing, China, pages 9--15, October 2012. DOI: 10.1109/SKG.2012.28 </li>
+        <li style="margin-left:10%"> Raheel Hassan Syed, Jasmina Pazardzievska, and Julien Bourgeois. Minimization of Security Alerts Under Denial of Service Attacks in Grid Computing Networks. In GCA 2011, Int. Conf. on Grid Computing and Applications, Las Vegas, United States, pages 1--7, July 2011.</li>
+        <li style="margin-left:10%"> Julien Bourgeois and Raheel Hassan Syed. Managing Security of Grid Architecture with a Grid Security Operation Center. In SECRYPT09, Int. Conf. on Security and Cryptography, Milan, Italy, pages 403--408, July 2009. INSTICC Press.</li>
+    </ol>
+    <h2 style="margin-left:10%">Dr. Irfana Memon</h2>
+    <p style="font-size:16px;margin-left:10%"><b><u>Journal Publications</u></b></p>
+    <ol>
+        <li style="margin-left:10%"> Irfana Memon, Safia Amir Dahri, Farida Memon, Fatima Qureshi, Fayyaz Ahmed Memon,? Comparative analysis of image detection techniques?, Sindh university research journal, vol. 49, Issue. 2, 2017.</li>
+        <li style="margin-left:10%"> Baby Marina, Irfana Memon, and Fatima, ?Security as a service in cloud computing?, International Journal of Computer Science and Information Security (IJCSIS), ISSN:1947-5500(ISI indexed), vol.15, no. 2, February 2017.</li>
+        <li style="margin-left:10%"> Rafia Naz memon, Shah Zaman Nizamani, Farida Memon, Irfana Memon, Pardeep Kumar, ?A problem analysis method based on soft system methodology in requirement engineering process?, QUEST Research Journal,vol. 15, Jan-Jun 2016.</li>
+        <li style="margin-left:10%"> Baby Marina, Irfana Memon, and Rafia Naz, ?Comparative analysis of cloud database, remote database, and traditional database?, International Journal of Computer Science and Information Security (IJCSIS), ISSN:1947-5500(ISI indexed), October 2016.</li>
+        <li style="margin-left:10%"> Fatima Qureshi, Irfana Memon, Fayyaz Ahmed Memon, Safia Dahri, Farida Memon, "A study on image detection techniques", International Journal of Engineering and Development, Vol 12, Issue 8, August 2016(Impact factor. 1.458).</li>
+        <li style="margin-left:10%"> Irfana memon, "Energy efficient secure and privacy preserving data aggregation in wireless sensor networks'', Pakistan Journal of Engineering and Applied Sciences University of Engineering and Technology, Lahore, Vol. 16, pp. 143-156, January 2015.</li>
+        <li style="margin-left:10%"> Irfana memon, Fiza syal, and Rafia naz, "Event detection using wireless sensor networks", Bahria University Journal of Information and communication technologies, 2015.</li>
+        <li style="margin-left:10%"> Rafia naz, Irfana memon, and Fiza syal, "A Green Learning model for teaching Requirements Engineering Course", Bahria University Journal of Information and communication technologies, 2015.</li>
+        <li style="margin-left:10%"> Fiza syal, Rafia naz, and Irfana memon, ?Situational framework for testing methods and metrics?, Bahria University Journal of Information and communication technologies, 2015.</li>
+        <li style="margin-left:10%"> Rafia Naz, Irfana Memon, Pardeep Kumar, ?ALL-RE: A model for teaching and learning equirements engineering?, QUEST Research Journal, 2015.</li>
+        <li style="margin-left:10%"> Irfana memon, Pardeep Kumar, Nisar Ahmed memon, Bhawani S. Chowdhary, "Secure coverage tree construction scheme in wireless sensor networks?, Wireless personal communication, December 2014.</li>
+        <li style="margin-left:10%"> Pardeep Kumar, Irfana memon, Bhawani S. Chowdhary, Mesut Güne?, "Implementation and Evaluation of AREA-MAC Protocol on the DES-Testbed Platform", Wireless personal communication, December 2014.</li>
+        <li style="margin-left:10%"> Aftab Hameed Memon, Ismail Abdul Rehman, and Irfana Memon, "A Rule Bases DSS in controlling Construction Waste", Life Science Journal-Acta Zhengzhou University Overseas Edition, Vol. 11 No. 6, pp. 417-424, IF=0.165, ISI, 2014.</li>
+        <li style="margin-left:10%"> Irfana memon, Nisar Ahmed memon, Fozia noureen, ?Modified SPEED protocol for wireless sensor network", QUEST Research Journal, july-dec, 2014.</li>
+        <li style="margin-left:10%"> Aftab Hameed Memon, Ismail Abdul Rahman, Irfana Memon and Nur Iffah Aqilah Azman, " BIM in Malaysian Construction Industry: Status, Advantages, Barriers and Strategies to Enhance the Implementation Level", Research Journal of Applied Sciences, Engineering and Technology (RJASET), 2014.</li>
+        <li style="margin-left:10%"> Irfana memon, ?A Critical Survey on secure data aggregation (SDA) in Wireless Sensor Networks", Open transactions on wireless communication, Volume 1, Number 1, dec, 2014.</li>
+        <li style="margin-left:10%"> Irfana memon, ?An Analysis of Privacy preserving Data Aggregation protocols for wireless sensor networks?, Springer, LNCS 7513, September 2012.</li>
+    </ol>
+    <p style="font-size:16px;margin-left:10%"><b><u>Conference Publications</u></b></p>
+    <ol>
+        <li style="margin-left:10%">  Baby Marina, Irfana Memon, Rafia Naz and Fiza Siyal, Database management system in cloud computing, 1st National Conference on Trends and Innovations in Information Technology (TIIT'16), QUEST, Nawabshah, 24-26 February 2016.</li>
+        <li style="margin-left:10%">  Shahzana Memon, Dr. Irfana Memon, Dr. Pardeep Kumar, Dr. Rafia Naz Memon and Fozia Noureen,Critical analysis of manet routing protocols, 1st National Conference on Trends and Innovations in Information Technology (TIIT'16), QUEST, Nawabshah, 24-26 February 2016.</li>
+        <li style="margin-left:10%">  Salahuddin Unar, Sheeraz Memon and Irfana Memon, Image Based Recognition and Classification of Human Emotions, 1st National Conference on Trends and Innovations in Information Technology (TIIT'16), QUEST, Nawabshah, 24-26 February 2016.</li>
+        <li style="margin-left:10%">  Arsalan Abro, Fiza Siyal, Rafia Naz and Irfana Memon, A survey on software testing techniques in Pakistan software industries, 1st National Conference on Trends and Innovations in Information Technology (TIIT'16), QUEST, Nawabshah, 24-26 February 2016.</li>
+        <li style="margin-left:10%">  Irum Naz, Rafia Naz, Fiza Siyal, Irfana Memon and Shahzana Memon, Testing Usability and Interoperability of Educational Websites of Pakistan, 1st National Conference on LIST OF CONFERENCE PAPERS Trends and Innovations in Information Technology (TIIT'16), QUEST, Nawabshah, 24-26 February 2016.</li>
+        <li style="margin-left:10%">  Irfana memon, Fiza syal, and Rafia naz, "Event detection using wireless sensor networks: A survey", 1st National Conference on mathematics and computer science (NCMCS'15), QUEST, Nawabshah, 2015.</li>
+        <li style="margin-left:10%">  Rafia naz, Irfana memon, and Fiza syal, " A Green Learning model for teaching Requirements Engineering Course", 1st National Conference on mathematics and computer science (NCMCS'15), QUEST, Nawabshah, 2015.</li>
+        <li style="margin-left:10%">  Fiza syal, Rafia naz, and Irfana memon, " SITUATIONAL FRAMEWORK FOR TESTING METHODS AND METRICS", 1st National Conference on mathematics and computer science (NCMCS'15), QUEST, Nawabshah, 2015.</li>
+        <li style="margin-left:10%">  Irfana memon, Nisar Ahmed memon, Intesab hussain Sadhayo, Umair ali khan, and Fatima Abbasi ?Survey on security attacks for wireless sensor networks?, 4th International Conference on Computer and Emerging Technologies, Shah Abdul Latif University, Khairpur, 2014</li>
+        <li style="margin-left:10%">  Irfana memon, Traian Muntean, ?Cluster-based energy-efficient composite event detection for wireless sensor networks?, In proceedings of the 6th international conference on sensors technologies and applications, SENSORCOMM 2012, pages: 241-247, ISBN: 978-1-61208-207-3, Rome, Italy, August, 2012.</li>
+        <li style="margin-left:10%">  Irfana memon, ?An Analysis of Privacy preserving Data Aggregation protocols for wireless sensor networks?, In proceedings of the 9th IFIP International Conference on Network and Parallel Computing (NPC 2012), LNCS 7513, Gwangju, Korea, September 2012</li>
+    </ol>
+    <h2 style="margin-left:10%">Dr. Imtiaz Ali Halepoto</h2>
+    <ol>
+        <li style="margin-left:10%">I.A. Halepoto, F.C.M. Lau, and Z. Niu, "Implementation of CMT-SCTP in Real Internet Lab Setup", Global Summit on Computer & Information Technology (GSCIT 2014), IEEE, 14-16 June 2014, Sousse, Tunisia.</li>
+        <li style="margin-left:10%"> I.A. Halepoto, F.C.M. Lau, and Z. Niu, "Management of Buffer Space for the Concurrent Multipath Transfer over Dissimilar Paths",The Third International Conference on Digital Information, Networking, and Wireless Communications (DINWC2015), IEEE pages 61?66, 3?5 Feb 2015, Moscow, Russia.</li>
+        <li style="margin-left:10%"> I.A. Halepoto, F.C.M. Lau, and Z. Niu, "Concurrent Multipath Transfer under Delay-based Dissimilarity using the SCTP", The Second International Conference on Computing Technology and Information Management (ICCTIM 2015), IEEE,  pages 179-184, 21?23 April 2015, Johor, Malaysia.</li>
+        <li style="margin-left:10%"> I.A. Halepoto, F.C.M. Lau, and Z. Niu, "Scheduling over Dissimilar Paths using CMT-SCTP", 7th International Conference on Ubiquitous and Future Networks (ICUFN 2015), IEEE, pages 535-540, 7?11 July 2015, Sapporo, Japan.</li>
+    </ol>
+    <h2 style="margin-left:10%">Dr. Abdul Wahid Memon</h2>
+    <ol>
+        <li style="margin-left:10%">  G Fursin, Y Kashnikov, AW Memon, Z Chamski, Milepost gcc: Machine learning enabled self-tuning compiler, International Journal of Parallel Programming, 2011.</li>
+        <li style="margin-left:10%">  G Fursin, A Memon, C Guillon, A Lokhmotov, Collective Mind, Part II: Towards Performance-and Cost-Aware Software Engineering as a Natural Science - arXiv preprint arXiv:1506.06256, 2015.</li>
+        <li style="margin-left:10%">  AW Memon, G Fursin, Crowdtuning: systematizing auto-tuning using predictive modeling and crowdsourcing - PARCO mini-symposium on" Application Auto-tuning, 2013.</li>
+    </ol>
+    <h2 style="margin-left:10%">Engr. Zuhaib Ahmed Shaikh</h2>
+    <ol>
+        <li style="margin-left:10%"> M. Kaloi, U. A. Khan, Z. A. Shaikh, ?Performance Comparison of Feature Detectors in a Hybrid Copy-Move Forgery Detection?, International Conference on Digital Image Processing, Hong Kong, 2017.</li>
+        <li style="margin-left:10%"> Z. A. Shaikh, Connecting Mobiles through Internet (VoWiFi) in 21st All Pakistan Electrical and Electronics Engineers Students Seminar 2006.</li>
+        <li style="margin-left:10%"> Z. A. Shaikh, U. A. Khan, M. A. Rajput, Machine learning based number plate detection and recognition, accepted and to be presented in 5th International Workshop on Combinations of Intelligent Methods and Applications, Sponsored by the University of Patras in conjunction with the 27th IEEE International Conference on Tools with Artificial Intelligence ( ICTAI- 15) 09-11 November 2015, Vietrisul Mare, Italy.</li>
+        <li style="margin-left:10%"> Z. A. Shaikh, U. A. Khan, N. A. Memon, An Autonomic Service Based System Using Machine Learning, International conference on mobile computing and computer technologies, 2014.</li>
+    </ol>
+    <h2 style="margin-left:10%">Engr. Muhammad Amir Bhutto</h2>
+    <ol>
+        <li style="margin-left:10%"> Pardeep Kumar, Iftikhar A. Koondhar, Akhtar H. Jalbani, Agha Shiraz A. Khan & M. Aamir Bhutto. "A Study Related to Protocol and Ports Usage for the ISA Server", published in the Quaid-e-Awam University of Engineering, Science & Technology Research Journal, Volume 11, Number 2, 2012.</li>
+    </ol>
+    <h2 style="margin-left:10%">Engr. Muhammad Awais Rajput</h2>
+    <ol>
+        <li style="margin-left:10%"> Zuhaib Ahmed Shaikh, Umair Ali Khan and Awais Rajput, ?Machine Learning Based Number Plate Detection and Recognition?, accepted and to be presented in 5th International Workshop on Combinations of Intelligent Methods and Applications, Sponsored by the University of Patras in conjunction with the 27th IEEE International Conference on Tools with Artificial Intelligence ( ICTAI- 15) 09-11 November 2015, Vietrisul Mare, Italy</li>
+        <li style="margin-left:10%"> Muhammad Awais Rajput, Umair Ali Khan and Nisar Ahmed Memon, ?Frequency Domain Image Filtering Using CUDA?, Mehran University Research Journal of Engineering & Technology, Volume 33, No. 4, October 2014.</li>
+    </ol>
+    <h2 style="margin-left:10%">Engr. Shahzana Memon</h2>
+    <p style="font-size:16px;margin-left:10%"><b><u>Journal Publications</u></b></p>
+    <ol>
+        <li style="margin-left:10%"> M.Sulleman.Memon, Anees Ahmed Soomro, Shahzana Memon, ?Messaging Information System (mIS) for Mobile Clients about Location Awareness in Pakistan?, Sindh Univ. Res. Jour. (Sci. Ser.) Vol.43, (1-A), June 2011, pp: 95-100</li>
+        <li style="margin-left:10%"> Shahzana Memon, Pardeep Kumar, Intsaab Hussain Sadhayo, ?The classification and Analysis of MANET Routing Protocols, Quaid-e-Awam University of Engineering, Science & Technology, Vol.13, pp:59-66, Dec 2014</li>
+        <li style="margin-left:10%"> Shahzana Memon, Pardeep Kumar, Umair Ali Khan, ?Performance Evaluation of Mobile AdHoc Routing Mechanisms?, Wireless Personal Communications An International Journal, Vol 82, Number 3, June 2015</li>
+    </ol>
+    <p style="font-size:16px;margin-left:10%"><b><u>Conference Publications</u></b></p>
+    <ol>
+        <li style="margin-left:10%">  M.Sulleman Memon, Anees Ahmed Soomro, Shahzana Memon, Tayyaba Aijaz, ?Location Based Mobile mIS in PAKISTAN?, ICCET 2011, April 22-23, SALU Khairpur, pp: 293-300.</li>
+    </ol>
+    <br><br>
+</div>
+
 <!-- ####################################################################################################### -->
 <div class="wrapper">
-  <div id="copyright" class="clear">
-    <center><p class="fl_left">Copyright &copy; 2015-16 - All Rights Reserved <br> <a href="http://www.quest.edu.pk">QUEST, Nawabshah-Pakistan</a></p></center>
-    <center><p class="fl_right">Developed and Maintained by <br><a target="_blank" href="http://zuhaib-shaikh.neocities.org">Zuhaib A. Shaikh</a> | <a target="_blank" href="http://umair-khan.quest.edu.pk">Umair A. Khan</a></p></center>
-  </div>
+    <div id="copyright" class="clear">
+        <center><p class="fl_left">Copyright &copy; 2017-18 - All Rights Reserved <br> <a href="http://www.quest.edu.pk">QUEST, Nawabshah-Pakistan</a></p></center>
+        <center><p class="fl_right">Developed and Maintained by <br><a target="_blank" href="http://zuhaib-shaikh.neocities.org">Zuhaib A. Shaikh</a> | <a target="_blank" href="http://umair-khan.quest.edu.pk">Umair A. Khan</a></p></center>
+    </div>
 </div>
 </body>
 </html>

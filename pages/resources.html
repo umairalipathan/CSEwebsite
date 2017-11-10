@@ -1,0 +1,116 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>QUEST-Nawabshah</title>
+<link rel="icon" href="../images/favicon.png" type="image/png">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" href="../layout/styles/layout.css" type="text/css" />
+<link rel="stylesheet" href="../layout/scripts/liteaccordion-v2.2/css/liteaccordion.css" type="text/css" />
+<script>
+	function change(val)
+	{
+		for(i = 1; i<val; i++)
+			document.getElementById(i).style.color='#591F58';
+		for(i=val+1; i<=6; i++)
+			document.getElementById(i).style.color='#591F58';
+		document.getElementById(val).style.color='brown';
+		document.getElementById('res').src='resources/'+val+'.html';
+		
+	}
+</script>
+</head>
+<body id="top">
+<div class="wrapper row1">
+  <div id="header" class="clear" >
+    <div class="fl_left">
+        <img src="../images/header.png" style="padding:0px; height:20%;width:85%;margin-left:-3%">
+  </div>
+
+  <div style="float:right;width:17%;margin-top:-2%;margin-right:-13%;">
+      <div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+          <a class="a2a_button_facebook"></a>
+          <a class="a2a_button_twitter"></a>
+          <a class="a2a_button_google_plus">
+              <a class="a2a_button_linkedin"></a>
+      </div>
+      <script async src="https://static.addtoany.com/menu/page.js"></script>
+  </div>
+
+  </div>
+</div>
+<!-- ####################################################################################################### -->
+<div class="wrapper row2" style="margin-top:-1%">
+  <div class="main-navigation" style="line-height:14px;word-spacing:0px; width:765px;">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+    <li><a href="pages/faculty.html">Faculty</a></li>
+	  <li><a href="#">Programs</a>
+        <ul>
+          <li><a href="pages/B-courses.html">Bachelors</a>
+		  </li>
+          <li><a href="pages/under-construction.html">Masters</a>
+		  </li>
+          <li><a href="pages/under-construction.html">PhD</a>
+		  </li>
+        </ul>
+      </li>
+	  <li><a href="#">Resources</a>
+        <ul>
+          <li><a href="pages/lib.html">Library</a></li>
+          <li><a href="pages/resourses.html">Labs</a></li>
+          <li><a href="pages/under-construction.html">Downloads</a></li>
+        </ul>
+      </li>
+	  <li><a href="#">Research Groups</a>
+        <ul>
+          <li><a href="pages/CV.html">Computer Vision</a></li>
+          <li><a href="pages/NS.html">Network Security</a></li>
+          <li><a href="pages/WSN.html">Wireless Sensor Network</a></li>
+		  <li><a href="pages/publications.html">Publications</a></li>
+        </ul>
+      </li>
+	  <li><a href="pages/PEC.html">PEC Accedreditation</a></li>
+	  <li  class="last"><a href="pages/contact.html">Contact</a></li>
+    </ul>
+    <div  class="clear"></div>
+  </div>
+</div>
+<!-- ####################################################################################################### -->
+
+<div class="wrapper row3">
+<br>
+</div>
+
+<!-- ####################################################################################################### -->
+<div class="wrapper row4">
+  <div id="container" class="clear"> 
+    <div id="left_column" style="width:25%;">
+      <div class="holder">
+        <h2 class="title">Labs</h2>
+        <ul class="nostart" style="line-height:30px;">
+          <li><a id="1" href="#" onclick="change(1)" style="color:brown;">Networking Lab</a></li>
+          <li><a id="2" href="#" onclick="change(2)">Software Development Lab</a></li>
+          <li><a id="3" href="#" onclick="change(3)">CISCO Lab</a></li>
+          <li><a id="4" href="#" onclick="change(4)">Multimedia Lab</a></li> 
+		  <li><a id="5" href="#" onclick="change(5)">Control System & Robotics Lab</a></li>
+		  <li><a id="6" href="#" onclick="change(6)">Hardware Lab</a></li>
+        </ul>
+      </div>
+	  <br>
+    </div>
+	<div id="content" style="width:65%;margin:-846px 0px 0px 280px;">
+		<iframe id="res" src="resources/1.html" style="margin-top:-3.15%;overflow: hidden; height: 100%; width: 65%; position: absolute; border:0px;" height="100%" width="100%" scrolling="no">
+		</iframe>
+	</div>
+  </div>
+</div>
+<!-- ####################################################################################################### -->
+<div class="wrapper">
+  <div id="copyright" class="clear">
+    <center><p class="fl_left">Copyright &copy; 2016-17 - All Rights Reserved <br> <a href="http://www.quest.edu.pk">QUEST, Nawabshah-Pakistan</a></p></center>
+    <center><p class="fl_right">Developed and Maintained by <br><a target="_blank" href="http://zuhaib-shaikh.neocities.org">Zuhaib A. Shaikh</a> | <a target="_blank" href="http://umair-khan.quest.edu.pk">Umair A. Khan</a></p></center>
+  </div>
+</div>
+</body>
+</html>

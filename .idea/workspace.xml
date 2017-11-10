@@ -9,42 +9,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28a47f72-9b63-4390-a823-53972efe933d" name="Default" comment="/">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/control-system-robotics-lab.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/gallery/10.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/gallery/11.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/gallery/12.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/gallery/13.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/gallery/14.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/gallery/15.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/gallery/8.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/gallery/9.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/gallery/Thumbs.db" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/hardware-computing-lab.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/multimedia-lab.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pardeep_small.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/software-development-lab.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/Resourses/lab.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/lib.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/pk.jpg" afterPath="$PROJECT_DIR$/images/pk.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/B-courses.html" afterPath="$PROJECT_DIR$/pages/B-courses.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/CV.html" afterPath="$PROJECT_DIR$/pages/CV.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/NS.html" afterPath="$PROJECT_DIR$/pages/NS.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/PEC.html" afterPath="$PROJECT_DIR$/pages/PEC.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/WSN.html" afterPath="$PROJECT_DIR$/pages/WSN.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/contact.html" afterPath="$PROJECT_DIR$/pages/contact.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/faculty.html" afterPath="$PROJECT_DIR$/pages/faculty.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/gallery.html" afterPath="$PROJECT_DIR$/pages/gallery.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/gallery/gallery.html" afterPath="$PROJECT_DIR$/pages/gallery/gallery.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/library.html" afterPath="$PROJECT_DIR$/pages/library.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/publications.html" afterPath="$PROJECT_DIR$/pages/publications.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/resourses.html" afterPath="$PROJECT_DIR$/pages/resourses.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/students.html" afterPath="$PROJECT_DIR$/pages/students.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/under-construction.html" afterPath="$PROJECT_DIR$/pages/under-construction.html" />
-    </list>
+    <list default="true" id="28a47f72-9b63-4390-a823-53972efe933d" name="Default" comment="/" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -237,7 +202,7 @@
       <workItem from="1510289106176" duration="243000" />
       <workItem from="1510290378265" duration="629000" />
       <workItem from="1510299640593" duration="3019000" />
-      <workItem from="1510303419649" duration="19069000" />
+      <workItem from="1510303419649" duration="19873000" />
     </task>
     <task id="LOCAL-00001" summary="dafdf">
       <created>1509705815522</created>
@@ -257,7 +222,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67606000" />
+    <option name="totallyTimeSpent" value="68410000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1301" height="772" extended-state="6" />

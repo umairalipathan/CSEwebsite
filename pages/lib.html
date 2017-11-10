@@ -12,10 +12,10 @@
 	{
 		for(i = 1; i<val; i++)
 			document.getElementById(i).style.color='#591F58';
-		for(i=val+1; i<=26; i++)
+		for(i=val+1; i<=3; i++)
 			document.getElementById(i).style.color='#591F58';
 		document.getElementById(val).style.color='brown';
-		document.getElementById('faculty').src='faculty/'+val+'.html';
+		document.getElementById('lib').src='library/'+val+'.html';
 		
 	}
 </script>
@@ -84,44 +84,19 @@
 <!-- ####################################################################################################### -->
 <div class="wrapper row4">
   <div id="container" class="clear"> 
-    <div id="left_column" style="width:25%;">
+    <div id="left_column" style="width:25%; height:700px;">
       <div class="holder">
-        <h2 class="title">Faculty</h2>
+        <h2 class="title">Libraries</h2>
         <ul class="nostart" style="line-height:30px;">
-		  <li><a id="1" href="#" onclick="change(1)">Prof. Dr. Nisar Kumar</a></li>
-          <li><a id="2" href="#" onclick="change(2)" style="color:brown;">Dr. Pardeep Kumar</a></li>
-          <li><a id="3" href="#" onclick="change(3)">Dr. Umair Ali Khan</a></li>
-          <li><a id="4" href="#" onclick="change(4)">Engr. Muhammad Sulleman Memon</a></li>
-          <li><a id="5" href="#" onclick="change(5)">Engr. Muhammad Ali Soomro</a></li> 
-		  <li><a id="6" href="#" onclick="change(6)">Engr. Fayaz Ahmed Memon</a></li>
-		  <li><a id="7" href="#" onclick="change(7)">Dr. Fizza Abbas</a></li>
-		  <li><a id="8" href="#" onclick="change(8)">Engr. Iftikhar Ahmed Koondhar</a></li>
-		  <li><a id="9" href="#" onclick="change(9)">Engr. Anees Ahmed Soomro</a></li>
-		  <li><a id="10" href="#" onclick="change(10)">Engr. Fozia Noureen Shaikh</a></li>
-		  <li><a id="11" href="#" onclick="change(11)">Dr. Ubaidullah Rajput</a></li>
-		  <li><a id="12" href="#" onclick="change(12)">Dr. Syed Raheel Hassan</a></li>
-		  <li><a id="13" href="#" onclick="change(13)">Dr. Irfana Memon</a></li>
-		  <li><a id="14" href="#" onclick="change(14)">Dr. Fareed Ahmed Jokhio</a></li>
-		  <li><a id="15" href="#" onclick="change(15)">Dr. Imtiaz Ali Halepoto</a></li>
-		  <li><a id="16" href="#" onclick="change(16)">Dr. Abdul Wahid Memon</a></li>
-		  <li><a id="17" href="#" onclick="change(17)">Engr. Zuhaib Ahmed Shaikh</a></li>
-		  <li><a id="18" href="#" onclick="change(18)">Engr. Muhammad Amir Bhutto</a></li>
-		  <li><a id="19" href="#" onclick="change(19)">Engr. Muhammad Awais Rajput</a></li>
-		  <li><a id="20" href="#" onclick="change(20)">Engr. Agha Shiraz Ahmed Khan</a></li>
-		  <li><a id="21" href="#" onclick="change(21)">Engr. Shahzana Memon</a></li>
-		  <li><a id="22" href="#" onclick="change(22)">Engr. Ali Raza Bhangwar</a></li>
-		  <li><a id="23" href="#" onclick="change(23)">Engr. Beenish Qureshi</a></li>
-		  <li><a id="24" href="#" onclick="change(24)">Engr. Ayesha Jokhio</a></li>
-		  <li><a id="25" href="#" onclick="change(25)">Engr. Haseena Rind Baloch</a></li>
-		  <li><a id="26" href="#" onclick="change(26)">Engr. Abdul Majid Kalwar</a></li>
+		  <li><a id="1" href="#" onclick="change(1)" style="color:brown;">Centeral Library</a></li>
+          <li><a id="2" href="#" onclick="change(2)">Seminar Library</a></li>
+          <li><a id="3" href="#" onclick="change(3)">Summary</a></li>
         </ul>
       </div>
 	  <br>
     </div>
 	<div id="content" style="width:65%;margin:-846px 0px 0px 280px;">
-		<!--<iframe src="faculty/pardeep.html" style="border:0px;width:100%;height:auto;position:center;overflow:hidden;padding:0px 0px 2px 0px;" scrolling="no">
-		-->
-		<iframe id="faculty" src="faculty/2.html" style="margin-top:-3.15%;overflow: hidden; height: 100%; width: 65%; position: absolute; border:0px;" height="100%" width="100%" scrolling="no">
+		<iframe id="lib" src="library/1.html" style="margin-top:12%;overflow: hidden; height: 100%; width: 65%; position: absolute; border:0px;" height="100%" width="100%" scrolling="no">
 		</iframe>
 	</div>
   </div>
